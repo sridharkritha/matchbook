@@ -13,8 +13,7 @@ const DOOR = (function() {
 	// should be used for all requests in that period.
 	login: function (callback) {
 		// Asynchronous 'json' file read
-		fs.readFile('../../../../GitHubOutside/myLoginDetails/secret.json', function(err, data) {
-	 // fs.readFile('./../../../../credential.json', function(err, data) {
+		fs.readFile('../../../GitHubOutside/myLoginDetails/secret.json', function(err, data) {
 			if (err) throw err;
 			var credential = JSON.parse(data);
 			// console.log(credential);
@@ -61,7 +60,7 @@ const DOOR = (function() {
 		//////////////////////////////////////// FILE API SETUP ////////////////////////////////////////////////////////////
 		// Read json file by 'fs' module(WITH promise)
 		getLastSession: async function(callback) {
-			const fileFullPath = "../../../../GitHubOutside/myLoginDetails/mySessionToken.json";
+			const fileFullPath = "../../../GitHubOutside/myLoginDetails/mySessionToken.json";
 			try{
 				const isFileExist = await fs.promises.stat(fileFullPath).then(() => true).catch(() => false);
 
@@ -107,7 +106,7 @@ const DOOR = (function() {
 				let obj = {};
 				obj["login" + '.sessionToken']  = sessionToken;
 				obj["login" + '.lastLoginTIme'] = lastLoginTIme;
-				await fs.promises.writeFile('../../../../GitHubOutside/myLoginDetails/mySessionToken.json', JSON.stringify(obj, null, 4), 'utf8');
+				await fs.promises.writeFile('../../../GitHubOutside/myLoginDetails/mySessionToken.json', JSON.stringify(obj, null, 4), 'utf8');
 				console.log('Success: A new mySessionToken.json file has been created');
 			}
 			catch(e)
