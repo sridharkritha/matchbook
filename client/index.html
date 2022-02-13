@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Sridhar's Template</title>
+</head>
+
+<body>
+	<div class="buttonsWrapper">
+		<span data-key = "ALL_PREDICTION_LIST" id="allPredictionBtnId" class="buttonDecoration">Show All Predictions</span>
+		<span data-key = "CURRENT_PREDICTION_LIST" id="currentPredictionBtnId" class="buttonDecoration">Show Current Predictions</span>
+		<span data-key = "PLACED_BET_LIST" id="placedBetBtnId" class="buttonDecoration">Show Placed Bets</span>
+		<span data-key = "LOG_MESSAGES" id="logMessagesBtnId" class="buttonDecoration">Show Log Messages</span>
+		
+		<span id="clearLogMessagesBtnId" class="buttonDecoration">Clear Log Messages</span>
+	</div>
+	<hr>
+
+
+	<div id="pageNameDisplayAreaId" class="gridColumnLayout textAlignCenter commonClass pageNameDisplayArea"></div><br/>
+	<div id="statistics" class ="commonClass"> 	</div>
+	<div id="predictionList"></div>
+
+	<script src="js/client.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+</body>
+
+</html>

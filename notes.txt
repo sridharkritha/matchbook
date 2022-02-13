@@ -1,0 +1,406 @@
+Ref: https://developers.matchbook.com/docs
+
+1. Error Codes: The Matchbook API uses standard HTTP status codes to indicate successful or error responses. 
+    The most common status codes are listed below.
+
+    Status   CodeStatus                 LineDescription
+    200	        OK	                        Successful request.
+    301	        Moved Permanently	        The resource has moved to a new location permanently.
+    302	        Moved Temporarily	        The resource has moved to a new location temporarily.
+    400	        Bad Request	                The request was rejected. This could indicate missing headers or fields, a badly formatted request body or that some condition of the system did not permit the request such as sending a submit offers request to try and bet on a closed market.
+    401	        Unauthorized	            The request requires a valid session. Login via the login API and include the session-token cookie or header with the request.
+    403	        Forbidden	                The account does not have sufficient permission to access the resource.
+    404	        Not Found	                The resource / API endpoint does not exist.
+    405	        Method Not Allowed	        The resource / endpoint exists but the HTTP verb (GET, POST, PUT, DELETE) is not valid for this endpoint.
+    500	        Internal Server Error	    An error has occurred processing the request on the Matchbook servers.
+    502	        Bad Gateway	                A server error (possibly a timeout) has occurred processing the request on the Matchbook servers.
+    503	        Service Unavailable	        The service is temporarily unavailable due to a technical problem.
+    504	        Gateway Timeout	            A timeout has occurred processing the request on the Matchbook servers.
+
+In addition to the status code error responses will also include a response body containing more detailed information e.g.
+    {
+        "errors": [{
+            "messages": ["Username or password are incorrect."]
+        }]
+    }
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2. Request Limitations:
+
+    Group	                Limit
+    --------------------------------------------
+    Account	            300  requests per minute
+    Events	            700  requests per minute
+    Security	          200  requests per minute
+    Navigation	        100  requests per minute
+    Reports	            40   requests per minute
+    Betting Write	      3000 requests per minute
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Football:
+---------
+
+    "Newcastle United vs Manchester United": {
+      "Newcastle United": {
+        "runnerId": 1934879995050101,
+        "back": 7.8,
+        "lay": 8
+      },
+      "Manchester United": {
+        "runnerId": 1934879995090001,
+        "back": 1.47,
+        "lay": 1.48
+      },
+      "DRAW (New/Man)": {
+        "runnerId": 1934879995120101,
+        "back": 5.1,
+        "lay": 5.2
+      },
+      "id": 1934879993080001,
+      "start": "2021-12-27T20:00:00.000Z"
+    },
+
+
+Horse Race:
+-----------
+    "11:50 Wetherby": {
+      "4 Golden Robin": {
+        "runnerId": 1945595160490116,
+        "back": 3.65,
+        "lay": 4.1
+      },
+      "5 The Toojumpa": {
+        "runnerId": 1945595160530016,
+        "back": 4,
+        "lay": 4.6
+      },
+      "2 Top And Drop": {
+        "runnerId": 1945595160430116,
+        "back": 4,
+        "lay": 5.1
+      },
+      "1 Whatsdastory": {
+        "runnerId": 1945595160400016,
+        "back": 5.6,
+        "lay": 7
+      },
+      "6 Raddle And Hum": {
+        "runnerId": 1945595160560016,
+        "back": 10.5,
+        "lay": 15
+      },
+      "3 Stop Talking": {
+        "runnerId": 1945595160460116,
+        "back": 13,
+        "lay": 22
+      },
+      "id": 1945595159900016,
+      "start": "2021-12-27T11:50:00.000Z"
+    },
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+After bet response:
+--------------------
+
+status: "open"
+sport-id: 24735152712200
+event-id: 1948200598790016
+event-name: "13:50 Lingfield"
+
+runner-name: "7 Follow Your Heart"
+decimal-odds: 2.7
+stake: 0.2
+
+acceptor-commission-rate: 0.02
+commission-reserve: 0
+commission-type: "NET_WIN"
+created-at: "2021-12-31T12:32:51.793Z"
+currency: "EUR"
+exchange-type: "back-lay"
+id: 1949971003630010
+in-play: false
+keep-in-play: false
+last-modified-time: "2021-12-31T12:32:51.793Z"
+market-id: 1948200599360016
+market-name: "WIN"
+market-type: "outright_ded_fact"
+odds: 2.7
+odds-type: "DECIMAL"
+originator-commission-rate: 0.02
+potential-profit: 0.34
+remaining: 0.2
+remaining-potential-profit: 0.34
+runner-id: 1948200599550116
+side: "back"
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+    Group	                Limit
+    --------------------------------------------
+    Account	            300  requests per minute
+    Events	            700  requests per minute
+    Security	          200  requests per minute
+    Navigation	        100  requests per minute
+    Reports	            40   requests per minute
+    Betting Write	      3000 requests per minute
+
+
+
+  // Max no.of http requests permitted per minute (enum constants)
+	const g_maxHttpReqPerMin = Object.freeze({
+                                              ACCOUNT       : 300,
+                                              EVENTS        : 700,
+                                              SECURITY      : 200,
+                                              NAVIGATION    : 100,
+                                              REPORTS       : 40,
+                                              BETTING_WRITE : 3000
+                                            });
+  
+  // Min wait time(milliseconds) before giving a next new http request (enum constants)
+	const g_minHttpReqWaitTime = Object.freeze({
+              ACCOUNT       : Math.round(1000 * 60 / g_maxHttpReqPerMin.ACCOUNT), // milliseconds
+              EVENTS        : Math.round(1000 * 60 / g_maxHttpReqPerMin.EVENTS),
+              SECURITY      : Math.round(1000 * 60 / g_maxHttpReqPerMin.SECURITY),
+              NAVIGATION    : Math.round(1000 * 60 / g_maxHttpReqPerMin.NAVIGATION),
+              REPORTS       : Math.round(1000 * 60 / g_maxHttpReqPerMin.REPORTS),
+              BETTING_WRITE : Math.round(1000 * 60 / g_maxHttpReqPerMin.BETTING_WRITE),
+                                              });
+
+  // Global timer for individual request types
+	const g_reqTypeTimer = {
+                            ACCOUNT       : 0,
+                            EVENTS        : 0,
+                            SECURITY      : 0,
+                            NAVIGATION    : 0,
+                            REPORTS       : 0,
+                            BETTING_WRITE : 0
+                        };
+
+  // Request types
+	const g_reqType = Object.freeze({
+                      ACCOUNT       : "ACCOUNT,
+                      EVENTS        : "EVENTS,
+                      SECURITY      : "SECURITY",
+                      NAVIGATION    : "NAVIGATION",
+                      REPORTS       : "REPORTS",
+                      BETTING_WRITE : "REPORTS"
+                    });
+
+  
+
+
+
+  timePast = new Date(); // milliseconds
+  timeNow  = new Date();
+  timeElapsed = timeNow - timePast; // milliseconds
+
+  minWaitTimeBeforeNewReq = Math.round(1000 * 60 / 700); // milliseconds
+
+
+  function setTimeoutPromise(ms, value) {
+    return new Promise(resolve => setTimeout(() => {
+      // do something - call some function, reset etc.,
+      resolve(value);
+    }, ms));
+
+  awaitForMaxReqTimeSlot = (reqType) => {
+    const timeNow = new Date().getTime(); // milliseconds
+    let ms = 0, timeElapsed = 0;;
+    switch(reqType)
+    {
+      case g_reqType.ACCOUNT:
+          timeElapsed = timeNow - g_reqTypeTimer.ACCOUNT;
+          if(timeElapsed < g_minHttpReqWaitTime.ACCOUNT)
+          {
+            ms =  g_minHttpReqWaitTime.ACCOUNT - timeElapsed;
+          }
+
+
+          return new Promise(r => setTimeout(() => {
+                                                      g_reqTypeTimer.ACCOUNT = new Date();
+                                                      resolve(value);
+                                                    }, ms));
+
+      break;
+      case g_reqType.EVENTS:
+      break;
+
+    }
+    // return new Promise(r => setTimeout(r, ms));
+    
+  }
+
+  #event = 700 req/min;
+  700 / 60 = 11.66 req/sec = 0.01166 req/ms
+  # 1 req takes = 1 / 0.01166 ms = 85.76 ms
+
+  1 ms   => #0.01166 req
+  x ms   <= #1       req
+
+  x ms = 1 / 0.01166 =  1000 / 11.66 = 85.76 ms
+
+  i.e., 85.76 ms => #1 req allowed.
+
+  x ms = (1000 * 60) / 700 =  85.76 ms (#1 req allowed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Promise constructor to wrap setTimeout() and resolve the promise after delay ms. 
+util function:
+---------------
+function setTimeoutPromise(ms, value) {
+    return new Promise(resolve => setTimeout(resolve, ms, value));
+}
+
+// or
+
+function setTimeoutPromise(ms, value) {
+    return new Promise(resolve => setTimeout(() => {
+      // do something - call some function, reset etc.,
+      resolve(value);
+    }, ms));
+
+// or
+
+const setTimeoutPromise = (ms,value) => new Promise(r => setTimeout(r, ms, value))
+setTimeoutPromise(3000,"sri").then(doSomething)
+await setTimeoutPromise(3000,"sri");
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+https://dmitripavlutin.com/javascript-promises-settimeout/
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+{
+  "tennis": {
+
+     // g_betMinutesOffset = -1; // place bet: +1 min before the start time, -5 min after the start time
+     "betMinutesOffset": ,         // g_betMinutesOffset 
+     //      "betAfterEventStarted": true, // "in-running-flag"
+
+
+    // g_minWinConfidencePercentage = 80; // ex: 80 => (80% or more)
+
+    let g_minProfitOdd = 0.7; // 0.7 => £0.7,  ex: 1 => £1 (1/1 = 1 even odd [or] 2.00 in decimal)
+
+
+  }
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Same HORSE will have different runner-id on different markets. 
+Runner-id is unique.
+
+HORSE - "8 Lassue" - Runner-id => 1982738798240051  (WIN market)
+HORSE - "8 Lassue" - Runner-id => 1982738798510051  (Place(2 market))
+
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Sports            How long it last for ?
+--------------------------------------
+1. Golf               4 days
+2. Horse Race         5 mins
+
+
+------------------------------------------------------------------------------------------------------------------------
+After Bet:
+----------
+
+acceptor-commission-rate: 0.02
+commission-reserve: 0
+commission-type: "NET_WIN"
+created-at: "2022-02-08T18:35:14.932Z"
+currency: "EUR"
+decimal-odds: 2.5
+event-id: 1982792051830051
+event-name: "18:28 Towcester"
+exchange-type: "back-lay"
+id: 1983884435020010
+in-play: false
+keep-in-play: false
+last-modified-time: "2022-02-08T18:35:14.932Z"
+market-id: 1982792052390051
+market-name: "WIN"
+market-type: "outright_ded_fact"
+odds: 2.5
+odds-type: "DECIMAL"
+originator-commission-rate: 0.02
+potential-profit: 0.3
+remaining: 0.2
+remaining-potential-profit: 0.3
+runner-id: 1982792052560151
+runner-name: "Manyana"
+side: "back"
+sport-id: 241798357140019
+stake: 0.2
+status: "open"
+
+
+g_betNow:
+--------
+
+
+event-start-time: "2022-02-08T18:28:00.000Z"
+market: "WIN"
+odds: 2.5
+runner-id: 1982792052560151
+side: "back"
+sport-id: 241798357140019
+sportName: "Greyhound Racing"
+stake: 0.2
+winPercentage: 143.9
+
+
+Offer Submission:
+------------------
+offers: [
+      {
+        'runner-id': 401525949430009,
+        side: 'back',
+        odds: 2.4,
+        stake: 5,
+        'keep-in-play': true
+      }

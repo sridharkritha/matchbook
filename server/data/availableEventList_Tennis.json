@@ -1,0 +1,101 @@
+{
+  "id": 9,
+  "events": {
+    "Zsombor Piros vs Jack Draper": {
+      "id": 1962293533920001,
+      "start": "2022-01-15T14:06:00.000Z",
+      "allRunners": {
+        "Zsombor Piros": {
+          "runnerId": 1962293534250001,
+          "back": 0,
+          "lay": 0
+        },
+        "Jack Draper": {
+          "runnerId": 1962293534290001,
+          "back": 1.41,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 3,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "userBalance": 10.05,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Juan Pablo Paz vs Juan Bautista Torres": {
+      "id": 1962316342260001,
+      "start": "2022-01-15T16:00:00.000Z",
+      "allRunners": {
+        "Juan Pablo Paz": {
+          "runnerId": 1962316342770001,
+          "back": 2.88,
+          "lay": 3.35
+        },
+        "Juan Bautista Torres": {
+          "runnerId": 1962316342800101,
+          "back": 1.43,
+          "lay": 1.54
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 3,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "userBalance": 10.05,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Jay Clarke vs Adrian Andreev": {
+      "id": 1962362633950001,
+      "start": "2022-01-15T16:05:00.000Z",
+      "allRunners": {
+        "Jay Clarke": {
+          "runnerId": 1962362634300001,
+          "back": 1.8,
+          "lay": 1.95
+        },
+        "Adrian Andreev": {
+          "runnerId": 1962362634340001,
+          "back": 2.06,
+          "lay": 2.26
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 3,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "userBalance": 10.05,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Igor Marcondes vs Genaro Alberto Olivieri": {
+      "id": 1962243157110001,
+      "start": "2022-01-15T17:30:00.000Z",
+      "allRunners": {
+        "Igor Marcondes": {
+          "runnerId": 1962243157660101,
+          "back": 2.08,
+          "lay": 2.28
+        },
+        "Genaro Alberto Olivieri": {
+          "runnerId": 1962243157700001,
+          "back": 1.79,
+          "lay": 1.93
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 3,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "userBalance": 10.05,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": 1532612887820003,
+  "events": {
+    "Sunday Premier League Shots On Target Special ": {
+      "id": 1963211160920001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "Bowen & Jota Both To Have Over 1.5 Shots On Target": {
+          "runnerId": 1963211161140001,
+          "back": 7,
+          "lay": 8.4
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Sunday Soccer Treble 1": {
+      "id": 1963220752850001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "Strasbourg/Reims/Monaco All To Win ": {
+          "runnerId": 1963220753030001,
+          "back": 0,
+          "lay": 5.7
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "AS Roma vs Cagliari Special": {
+      "id": 1962284683660001,
+      "start": "2022-01-16T17:00:01.000Z",
+      "allRunners": {
+        "Roma To Win Both Halves": {
+          "runnerId": 1962284683890001,
+          "back": 0,
+          "lay": 3.75
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "NFL Playoffs Treble": {
+      "id": 1962958928390001,
+      "start": "2022-01-16T18:00:01.000Z",
+      "allRunners": {
+        "Buccaneers/49ers/Chiefs All To Win": {
+          "runnerId": 1962958928620001,
+          "back": 4,
+          "lay": 4.2
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "id": 6,
+  "events": {
+    "HK Gomel vs HK Vitebsk": {
+      "id": 1962129001510001,
+      "start": "2022-01-16T09:10:00.000Z",
+      "allRunners": {
+        "HK Gomel": {
+          "runnerId": 1962129001800001,
+          "back": 0,
+          "lay": 0
+        },
+        "HK Vitebsk": {
+          "runnerId": 1962129001840001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Metallurg Zhlobin vs HK Mogilev": {
+      "id": 1962129003870001,
+      "start": "2022-01-16T09:45:00.000Z",
+      "allRunners": {
+        "Metallurg Zhlobin": {
+          "runnerId": 1962129004170001,
+          "back": 0,
+          "lay": 0
+        },
+        "HK Mogilev": {
+          "runnerId": 1962129004200101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "HK Lokomotiv Orsha vs Khimik-SKA Novopolotsk": {
+      "id": 1962128999080001,
+      "start": "2022-01-16T11:00:00.000Z",
+      "allRunners": {
+        "HK Lokomotiv Orsha": {
+          "runnerId": 1962128999350001,
+          "back": 0,
+          "lay": 0
+        },
+        "Khimik-SKA Novopolotsk": {
+          "runnerId": 1962128999380001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Kölner Haie vs Düsseldorfer EG": {
+      "id": 1962144760330001,
+      "start": "2022-01-16T13:00:00.000Z",
+      "allRunners": {
+        "Kölner Haie": {
+          "runnerId": 1962144760550001,
+          "back": 0,
+          "lay": 0
+        },
+        "Düsseldorfer EG": {
+          "runnerId": 1962144760590001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "BIK Karlskoga vs Södertälje SK": {
+      "id": 1963240779330001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "BIK Karlskoga": {
+          "runnerId": 1963240780430001,
+          "back": 0,
+          "lay": 0
+        },
+        "Södertälje SK": {
+          "runnerId": 1963240780470001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "IK Oskarshamn vs Malmö Redhawks": {
+      "id": 1960506521360001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "IK Oskarshamn": {
+          "runnerId": 1960506521560001,
+          "back": 1.72,
+          "lay": 1.88
+        },
+        "Malmö Redhawks": {
+          "runnerId": 1960506521600001,
+          "back": 2.14,
+          "lay": 2.4
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "HC Lugano vs EHC Biel-Bienne": {
+      "id": 1961314833020001,
+      "start": "2022-01-16T14:45:00.000Z",
+      "allRunners": {
+        "HC Lugano": {
+          "runnerId": 1961314833260001,
+          "back": 0,
+          "lay": 0
+        },
+        "EHC Biel-Bienne": {
+          "runnerId": 1961314833300001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Lausanne HC vs HC Ambri-Piotta": {
+      "id": 1961314830500001,
+      "start": "2022-01-16T14:45:00.000Z",
+      "allRunners": {
+        "Lausanne HC": {
+          "runnerId": 1961314830760001,
+          "back": 0,
+          "lay": 0
+        },
+        "HC Ambri-Piotta": {
+          "runnerId": 1961314830810001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "ZSC Lions vs EV Zug": {
+      "id": 1961314835270001,
+      "start": "2022-01-16T14:45:00.000Z",
+      "allRunners": {
+        "ZSC Lions": {
+          "runnerId": 1961314835480001,
+          "back": 0,
+          "lay": 0
+        },
+        "EV Zug": {
+          "runnerId": 1961314835520001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Bili Tygri Liberec vs HC Sparta Praha": {
+      "id": 1960482297690001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "Bili Tygri Liberec": {
+          "runnerId": 1960482298010001,
+          "back": 0,
+          "lay": 0
+        },
+        "HC Sparta Praha": {
+          "runnerId": 1960482298050001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Mountfield HK vs Kometa Brno": {
+      "id": 1960482300590001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "Mountfield HK": {
+          "runnerId": 1960482300910101,
+          "back": 0,
+          "lay": 0
+        },
+        "Kometa Brno": {
+          "runnerId": 1960482300950001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Rytíri Kladno vs HC Škoda Plzen": {
+      "id": 1960482295240001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "Rytíri Kladno": {
+          "runnerId": 1960482295540101,
+          "back": 0,
+          "lay": 0
+        },
+        "HC Škoda Plzen": {
+          "runnerId": 1960482295580101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "EHC Red Bull München vs Krefeld Pinguine": {
+      "id": 1962424847780001,
+      "start": "2022-01-16T15:30:00.000Z",
+      "allRunners": {
+        "EHC Red Bull München": {
+          "runnerId": 1962424848320001,
+          "back": 0,
+          "lay": 0
+        },
+        "Krefeld Pinguine": {
+          "runnerId": 1962424848350101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Fischtown Pinguins vs Grizzly Adams Wolfsburg": {
+      "id": 1962424844780001,
+      "start": "2022-01-16T15:30:00.000Z",
+      "allRunners": {
+        "Fischtown Pinguins": {
+          "runnerId": 1962424845220001,
+          "back": 0,
+          "lay": 0
+        },
+        "Grizzly Adams Wolfsburg": {
+          "runnerId": 1962424845260001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Schwenninger Wild Wings vs Augsburger Panther": {
+      "id": 1962424860690001,
+      "start": "2022-01-16T15:30:00.000Z",
+      "allRunners": {
+        "Schwenninger Wild Wings": {
+          "runnerId": 1962424860920101,
+          "back": 0,
+          "lay": 0
+        },
+        "Augsburger Panther": {
+          "runnerId": 1962424860970001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "HC Vitkovice Ridera vs HC Verva Litvínov": {
+      "id": 1960482303430001,
+      "start": "2022-01-16T15:40:00.000Z",
+      "allRunners": {
+        "HC Vitkovice Ridera": {
+          "runnerId": 1960482303720101,
+          "back": 0,
+          "lay": 0
+        },
+        "HC Verva Litvínov": {
+          "runnerId": 1960482303760001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Adler Mannheim vs Eisbären Berlin": {
+      "id": 1962424838080001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Adler Mannheim": {
+          "runnerId": 1962424838660001,
+          "back": 0,
+          "lay": 0
+        },
+        "Eisbären Berlin": {
+          "runnerId": 1962424838700001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "IF Troja/Ljungby vs Tingsryds AIF": {
+      "id": 1963240788230001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "IF Troja/Ljungby": {
+          "runnerId": 1963240788440001,
+          "back": 0,
+          "lay": 0
+        },
+        "Tingsryds AIF": {
+          "runnerId": 1963240788480001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Mora IK vs Kristianstads IK": {
+      "id": 1963240784450001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "Mora IK": {
+          "runnerId": 1963240785420001,
+          "back": 0,
+          "lay": 0
+        },
+        "Kristianstads IK": {
+          "runnerId": 1963240785460001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Bietigheim Steelers vs Straubing Tigers": {
+      "id": 1962424850660001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Bietigheim Steelers": {
+          "runnerId": 1962424851230101,
+          "back": 0,
+          "lay": 0
+        },
+        "Straubing Tigers": {
+          "runnerId": 1962424851270101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Vancouver Canucks at Washington Capitals": {
+      "id": 1961552206260001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Vancouver Canucks": {
+          "runnerId": 1961552215910001,
+          "back": 2.62,
+          "lay": 2.74
+        },
+        "Washington Capitals": {
+          "runnerId": 1961552215870001,
+          "back": 1.58,
+          "lay": 1.62
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Stanley Cup Winner 2022": {
+      "id": 1847125848010001,
+      "start": "2022-01-16T19:05:00.000Z",
+      "allRunners": {
+        "Colorado Avalanche": {
+          "runnerId": 1847145159560001,
+          "back": 0,
+          "lay": 0
+        },
+        "Tampa Bay Lightning": {
+          "runnerId": 1847145159600001,
+          "back": 0,
+          "lay": 0
+        },
+        "Vegas Golden Knights": {
+          "runnerId": 1847145159630001,
+          "back": 0,
+          "lay": 0
+        },
+        "Boston Bruins": {
+          "runnerId": 1847145159660101,
+          "back": 0,
+          "lay": 0
+        },
+        "Carolina Hurricanes": {
+          "runnerId": 1847145159700001,
+          "back": 0,
+          "lay": 0
+        },
+        "New York Rangers": {
+          "runnerId": 1847145159730001,
+          "back": 0,
+          "lay": 0
+        },
+        "Philadelphia Flyers": {
+          "runnerId": 1847145159760001,
+          "back": 0,
+          "lay": 0
+        },
+        "Florida Panthers": {
+          "runnerId": 1847145159790001,
+          "back": 0,
+          "lay": 0
+        },
+        "Pittsburgh Penguins": {
+          "runnerId": 1847145159820001,
+          "back": 0,
+          "lay": 0
+        },
+        "Edmonton Oilers": {
+          "runnerId": 1847145159840101,
+          "back": 0,
+          "lay": 0
+        },
+        "Minnesota Wild": {
+          "runnerId": 1847145159880001,
+          "back": 0,
+          "lay": 0
+        },
+        "Dallas Stars": {
+          "runnerId": 1847145159900101,
+          "back": 0,
+          "lay": 0
+        },
+        "Washington Capitals": {
+          "runnerId": 1847145159940001,
+          "back": 0,
+          "lay": 0
+        },
+        "Chicago Blackhawks": {
+          "runnerId": 1847145159960101,
+          "back": 0,
+          "lay": 0
+        },
+        "Montreal Canadiens": {
+          "runnerId": 1847145159990101,
+          "back": 0,
+          "lay": 0
+        },
+        "St Louis Blues": {
+          "runnerId": 1847145160020101,
+          "back": 0,
+          "lay": 0
+        },
+        "Vancouver Canucks": {
+          "runnerId": 1847145160060001,
+          "back": 0,
+          "lay": 0
+        },
+        "Winnipeg Jets": {
+          "runnerId": 1847145160080101,
+          "back": 0,
+          "lay": 0
+        },
+        "Calgary Flames": {
+          "runnerId": 1847145160110001,
+          "back": 0,
+          "lay": 0
+        },
+        "Seattle Kraken": {
+          "runnerId": 1847145160140001,
+          "back": 0,
+          "lay": 0
+        },
+        "New Jersey Devils": {
+          "runnerId": 1847145160180001,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Kings": {
+          "runnerId": 1847145160210001,
+          "back": 0,
+          "lay": 0
+        },
+        "Nashville Predators": {
+          "runnerId": 1847145160260001,
+          "back": 0,
+          "lay": 0
+        },
+        "Anaheim Ducks": {
+          "runnerId": 1847145160290101,
+          "back": 0,
+          "lay": 0
+        },
+        "Columbus Blue Jackets": {
+          "runnerId": 1847145160320101,
+          "back": 0,
+          "lay": 0
+        },
+        "San Jose Sharks": {
+          "runnerId": 1847145160350101,
+          "back": 0,
+          "lay": 0
+        },
+        "Ottawa Senators": {
+          "runnerId": 1847145160380001,
+          "back": 0,
+          "lay": 0
+        },
+        "Arizona Coyotes": {
+          "runnerId": 1847145160410001,
+          "back": 0,
+          "lay": 0
+        },
+        "Buffalo Sabres": {
+          "runnerId": 1847145160450001,
+          "back": 0,
+          "lay": 0
+        },
+        "Detroit Red Wings": {
+          "runnerId": 1847145160480001,
+          "back": 0,
+          "lay": 0
+        },
+        "Toronto Maple Leafs": {
+          "runnerId": 1932336145910001,
+          "back": 0,
+          "lay": 0
+        },
+        "New York Islanders": {
+          "runnerId": 1932338454620001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

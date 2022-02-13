@@ -1,0 +1,130 @@
+{
+  "sportId": {
+    "American Football": {
+      "id": 1
+    },
+    "Athletics": {
+      "id": 555636871580009
+    },
+    "Australian Rules": {
+      "id": 112
+    },
+    "Baseball": {
+      "id": 3
+    },
+    "Basketball": {
+      "id": 4
+    },
+    "Boxing": {
+      "id": 14
+    },
+    "Chess": {
+      "id": 1387652895550017
+    },
+    "Cricket": {
+      "id": 110
+    },
+    "Current Events": {
+      "id": 11
+    },
+    "Cycling": {
+      "id": 115
+    },
+    "Darts": {
+      "id": 116
+    },
+    "Enhanced Specials": {
+      "id": 1532612887820003
+    },
+    "Gaelic Football": {
+      "id": 117
+    },
+    "Golf": {
+      "id": 8
+    },
+    "Greyhound Racing": {
+      "id": 241798357140019
+    },
+    "Handball": {
+      "id": 1326054153540017
+    },
+    "Horse Racing": {
+      "id": 24735152712200
+    },
+    "Horse Racing (Ante Post)": {
+      "id": 222109340250019
+    },
+    "Horse Racing Beta": {
+      "id": 231138347942400
+    },
+    "Hurling": {
+      "id": 118
+    },
+    "Ice Hockey": {
+      "id": 6
+    },
+    "MMA": {
+      "id": 126
+    },
+    "Motor Sport": {
+      "id": 13
+    },
+    "Multiples": {
+      "id": 974500494700042
+    },
+    "NCAA Basketball": {
+      "id": 5
+    },
+    "NCAA Football": {
+      "id": 2
+    },
+    "Olympics": {
+      "id": 1389296437280017
+    },
+    "Player Props": {
+      "id": 1647799938050011
+    },
+    "Podcast Specials": {
+      "id": 1931049418390001
+    },
+    "Poker": {
+      "id": 1390943636090017
+    },
+    "Politics": {
+      "id": 385227477790005
+    },
+    "Pool": {
+      "id": 979564283980041
+    },
+    "Rugby League": {
+      "id": 114
+    },
+    "Rugby Union": {
+      "id": 18
+    },
+    "Snooker": {
+      "id": 120
+    },
+    "Soccer": {
+      "id": 15
+    },
+    "TV Specials": {
+      "id": 670369566180014
+    },
+    "Table Tennis": {
+      "id": 1389388027310017
+    },
+    "Tennis": {
+      "id": 9
+    },
+    "Test Sport": {
+      "id": 502491395980009
+    },
+    "Volleyball": {
+      "id": 1939998342510016
+    },
+    "eSports": {
+      "id": 123
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": 18,
+  "events": {
+    "Leinster vs Montpellier Hérault": {
+      "id": 1958000655980016,
+      "start": "2022-01-16T13:00:00.000Z",
+      "allRunners": {
+        "Leinster": {
+          "runnerId": 1958000656210016,
+          "back": 1.02,
+          "lay": 1.04
+        },
+        "Montpellier Hérault": {
+          "runnerId": 1958000656250016,
+          "back": 22,
+          "lay": 1000
+        },
+        "DRAW (Lei/Mon)": {
+          "runnerId": 1958000656290116,
+          "back": 22,
+          "lay": 1000
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Bordeaux-Bègles vs Scarlets": {
+      "id": 1958000625500016,
+      "start": "2022-01-16T15:15:00.000Z",
+      "allRunners": {
+        "Bordeaux-Bègles": {
+          "runnerId": 1958000625770016,
+          "back": 1.31,
+          "lay": 1.36
+        },
+        "Scarlets": {
+          "runnerId": 1958000625810016,
+          "back": 4.1,
+          "lay": 4.6
+        },
+        "DRAW (Bor/Sca)": {
+          "runnerId": 1958000625850116,
+          "back": 22,
+          "lay": 400
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Northampton Saints vs Ulster": {
+      "id": 1958000661980016,
+      "start": "2022-01-16T15:15:00.000Z",
+      "allRunners": {
+        "Northampton Saints": {
+          "runnerId": 1958000662260016,
+          "back": 1.78,
+          "lay": 1.88
+        },
+        "Ulster": {
+          "runnerId": 1958000662300116,
+          "back": 2.3,
+          "lay": 2.46
+        },
+        "DRAW (Nor/Uls)": {
+          "runnerId": 1958000662340016,
+          "back": 21,
+          "lay": 65
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "ASM Clermont Auvergne vs Sale Sharks": {
+      "id": 1958000644380016,
+      "start": "2022-01-16T17:30:00.000Z",
+      "allRunners": {
+        "ASM Clermont Auvergne": {
+          "runnerId": 1958000644610016,
+          "back": 1.31,
+          "lay": 1.36
+        },
+        "Sale Sharks": {
+          "runnerId": 1958000644660016,
+          "back": 4,
+          "lay": 4.5
+        },
+        "DRAW (ASM/Sal)": {
+          "runnerId": 1958000644700016,
+          "back": 22,
+          "lay": 1000
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

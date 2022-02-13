@@ -1,0 +1,1763 @@
+{
+  "id": 4,
+  "events": {
+    "Shinhan Bank S'Birds Women vs Cheongju KB Stars Women": {
+      "id": 1963242150040001,
+      "start": "2022-01-16T09:00:00.000Z",
+      "allRunners": {
+        "Shinhan Bank S'Birds Women": {
+          "runnerId": 1963242150550001,
+          "back": 2.56,
+          "lay": 3.05
+        },
+        "Cheongju KB Stars Women": {
+          "runnerId": 1963242150590001,
+          "back": 1.48,
+          "lay": 1.65
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Türk Telekom BK vs Afyon Belediye": {
+      "id": 1962158726950001,
+      "start": "2022-01-16T10:00:00.000Z",
+      "allRunners": {
+        "Türk Telekom BK": {
+          "runnerId": 1962158727170001,
+          "back": 0,
+          "lay": 0
+        },
+        "Afyon Belediye": {
+          "runnerId": 1962158727210101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Carpegna Prosciutto Basket Pesaro vs AX Armani Exchange Olimpia Milan": {
+      "id": 1963215658080001,
+      "start": "2022-01-16T11:00:00.000Z",
+      "allRunners": {
+        "Carpegna Prosciutto Basket Pesaro": {
+          "runnerId": 1963215658660101,
+          "back": 5.9,
+          "lay": 7.6
+        },
+        "AX Armani Exchange Olimpia Milan": {
+          "runnerId": 1963215658700101,
+          "back": 1.15,
+          "lay": 1.21
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Dinamo Banco di Sardegna Sassari vs Dolomiti Energia Trento": {
+      "id": 1963215666120001,
+      "start": "2022-01-16T11:00:00.000Z",
+      "allRunners": {
+        "Dinamo Banco di Sardegna Sassari": {
+          "runnerId": 1963215666660001,
+          "back": 1.46,
+          "lay": 1.58
+        },
+        "Dolomiti Energia Trento": {
+          "runnerId": 1963215666700001,
+          "back": 2.72,
+          "lay": 3.2
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Kocaeli BB vs Sigortam.net": {
+      "id": 1963215804670001,
+      "start": "2022-01-16T11:00:00.000Z",
+      "allRunners": {
+        "Kocaeli BB": {
+          "runnerId": 1963215805030001,
+          "back": 0,
+          "lay": 0
+        },
+        "Sigortam.net": {
+          "runnerId": 1963215805310001,
+          "back": 1.3,
+          "lay": 1.43
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Movistar Estudiantes vs Basquet Girona": {
+      "id": 1963181245580001,
+      "start": "2022-01-16T11:00:00.000Z",
+      "allRunners": {
+        "Movistar Estudiantes": {
+          "runnerId": 1963181246010101,
+          "back": 1.58,
+          "lay": 1.65
+        },
+        "Basquet Girona": {
+          "runnerId": 1963181246050001,
+          "back": 2.52,
+          "lay": 2.74
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "CB Prat Joventut vs Acunsa GBC": {
+      "id": 1963181255530001,
+      "start": "2022-01-16T11:15:00.000Z",
+      "allRunners": {
+        "CB Prat Joventut": {
+          "runnerId": 1963181255930001,
+          "back": 2.06,
+          "lay": 2.32
+        },
+        "Acunsa GBC": {
+          "runnerId": 1963181255970001,
+          "back": 1.75,
+          "lay": 1.95
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Club Melilla Baloncesto vs Liberbank Oviedo Baloncesto": {
+      "id": 1963181239080001,
+      "start": "2022-01-16T11:30:00.000Z",
+      "allRunners": {
+        "Club Melilla Baloncesto": {
+          "runnerId": 1963181239630001,
+          "back": 1.93,
+          "lay": 2.24
+        },
+        "Liberbank Oviedo Baloncesto": {
+          "runnerId": 1963181239680001,
+          "back": 1.8,
+          "lay": 2.08
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Rio Breogan vs Club Joventut Badalona": {
+      "id": 1961344336940001,
+      "start": "2022-01-16T11:30:00.000Z",
+      "allRunners": {
+        "Rio Breogan": {
+          "runnerId": 1961344337180001,
+          "back": 1.99,
+          "lay": 2.26
+        },
+        "Club Joventut Badalona": {
+          "runnerId": 1961344337220001,
+          "back": 1.79,
+          "lay": 2.02
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Xinjiang Guanghui Flying Tigers vs Sichuan Jinqiang": {
+      "id": 1963226391980001,
+      "start": "2022-01-16T11:35:00.000Z",
+      "allRunners": {
+        "Xinjiang Guanghui Flying Tigers": {
+          "runnerId": 1963226392390001,
+          "back": 1.34,
+          "lay": 1.46
+        },
+        "Sichuan Jinqiang": {
+          "runnerId": 1963226392420101,
+          "back": 3.15,
+          "lay": 3.95
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Jilin Northeast Tigers vs Tianjin Ronggang Pioneers": {
+      "id": 1963226396600001,
+      "start": "2022-01-16T12:00:00.000Z",
+      "allRunners": {
+        "Jilin Northeast Tigers": {
+          "runnerId": 1963226396960001,
+          "back": 1.52,
+          "lay": 1.68
+        },
+        "Tianjin Ronggang Pioneers": {
+          "runnerId": 1963226397000001,
+          "back": 2.46,
+          "lay": 2.94
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Royal Hali Gaziantep BB vs Semt77 Yalova Belediyespor": {
+      "id": 1962158729090001,
+      "start": "2022-01-16T12:30:00.000Z",
+      "allRunners": {
+        "Royal Hali Gaziantep BB": {
+          "runnerId": 1962158729310001,
+          "back": 1.19,
+          "lay": 1.27
+        },
+        "Semt77 Yalova Belediyespor": {
+          "runnerId": 1962158729350001,
+          "back": 4.7,
+          "lay": 6.4
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "FC Bayern München vs Telekom Baskets Bonn": {
+      "id": 1963199967730001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "FC Bayern München": {
+          "runnerId": 1963199968240001,
+          "back": 1.33,
+          "lay": 1.42
+        },
+        "Telekom Baskets Bonn": {
+          "runnerId": 1963199968280001,
+          "back": 3.35,
+          "lay": 4.1
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Horsens IC vs Værløse BBK": {
+      "id": 1963234362410001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "Horsens IC": {
+          "runnerId": 1963234363000001,
+          "back": 1.1,
+          "lay": 1.14
+        },
+        "Værløse BBK": {
+          "runnerId": 1963234363040001,
+          "back": 8,
+          "lay": 11
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Ratiopharm Ulm vs Medi Bayreuth": {
+      "id": 1963199959850001,
+      "start": "2022-01-16T14:00:00.000Z",
+      "allRunners": {
+        "Ratiopharm Ulm": {
+          "runnerId": 1963199960560101,
+          "back": 1.2,
+          "lay": 1.25
+        },
+        "Medi Bayreuth": {
+          "runnerId": 1963199960600101,
+          "back": 5,
+          "lay": 6
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Iraklis Thessaloniki vs Promitheas Patras BC": {
+      "id": 1963217189420001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "Iraklis Thessaloniki": {
+          "runnerId": 1963217190020001,
+          "back": 2.46,
+          "lay": 2.94
+        },
+        "Promitheas Patras BC": {
+          "runnerId": 1963217190050101,
+          "back": 1.51,
+          "lay": 1.69
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "KK Gorica vs KK Zabok": {
+      "id": 1963237234550001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "KK Gorica": {
+          "runnerId": 1963237235110001,
+          "back": 0,
+          "lay": 0
+        },
+        "KK Zabok": {
+          "runnerId": 1963237235150001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Petkim Spor vs Fenerbahçe BEKO": {
+      "id": 1962158731510001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "Petkim Spor": {
+          "runnerId": 1962158731770001,
+          "back": 0,
+          "lay": 0
+        },
+        "Fenerbahçe BEKO": {
+          "runnerId": 1962158731810001,
+          "back": 1.13,
+          "lay": 1.18
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "UNICS Kazan vs BC Nizhny Novgorod": {
+      "id": 1962164175160001,
+      "start": "2022-01-16T15:00:00.000Z",
+      "allRunners": {
+        "UNICS Kazan": {
+          "runnerId": 1962164175460101,
+          "back": 1.15,
+          "lay": 1.22
+        },
+        "BC Nizhny Novgorod": {
+          "runnerId": 1962164175500101,
+          "back": 5.5,
+          "lay": 7.8
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Rostock Seawolves vs Eisbären Bremerhaven": {
+      "id": 1963213535080001,
+      "start": "2022-01-16T15:30:00.000Z",
+      "allRunners": {
+        "Rostock Seawolves": {
+          "runnerId": 1963213535470101,
+          "back": 1.08,
+          "lay": 1.57
+        },
+        "Eisbären Bremerhaven": {
+          "runnerId": 1963213535510001,
+          "back": 2.74,
+          "lay": 13.5
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Science City Jena vs Itzehoe Eagles": {
+      "id": 1963213529890001,
+      "start": "2022-01-16T15:30:00.000Z",
+      "allRunners": {
+        "Science City Jena": {
+          "runnerId": 1963213530440001,
+          "back": 1.01,
+          "lay": 1.22
+        },
+        "Itzehoe Eagles": {
+          "runnerId": 1963213530470101,
+          "back": 5.5,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Baxi Manresa vs Herbalife Gran Canaria": {
+      "id": 1961344097370001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Baxi Manresa": {
+          "runnerId": 1961344097860001,
+          "back": 1.43,
+          "lay": 1.53
+        },
+        "Herbalife Gran Canaria": {
+          "runnerId": 1961344097910001,
+          "back": 2.88,
+          "lay": 3.35
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "BC Beroe vs Cherno More Ticha": {
+      "id": 1963229196700001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "BC Beroe": {
+          "runnerId": 1963229197370001,
+          "back": 0,
+          "lay": 1.17
+        },
+        "Cherno More Ticha": {
+          "runnerId": 1963229197410001,
+          "back": 6.8,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Le Mans Sarthe Basket vs LDLC ASVEL Lyon-Villeurbanne": {
+      "id": 1963186798890001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Le Mans Sarthe Basket": {
+          "runnerId": 1963186799560001,
+          "back": 2.32,
+          "lay": 2.72
+        },
+        "LDLC ASVEL Lyon-Villeurbanne": {
+          "runnerId": 1963186799600101,
+          "back": 1.58,
+          "lay": 1.76
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Phoenix Hagen vs Ehingen Urspringschule": {
+      "id": 1963213541040001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Phoenix Hagen": {
+          "runnerId": 1963213541390001,
+          "back": 1.01,
+          "lay": 1.18
+        },
+        "Ehingen Urspringschule": {
+          "runnerId": 1963213541420001,
+          "back": 6.4,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Rasta Vechta vs ROMERSTROM Gladiators Trier": {
+      "id": 1963213553320001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Rasta Vechta": {
+          "runnerId": 1963213553790001,
+          "back": 1.55,
+          "lay": 2.58
+        },
+        "ROMERSTROM Gladiators Trier": {
+          "runnerId": 1963213553820101,
+          "back": 1.63,
+          "lay": 2.82
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Real Madrid vs Casademont Zaragoza": {
+      "id": 1961344103210001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Real Madrid": {
+          "runnerId": 1961344103460001,
+          "back": 1.11,
+          "lay": 1.16
+        },
+        "Casademont Zaragoza": {
+          "runnerId": 1961344103500001,
+          "back": 7.2,
+          "lay": 10.5
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Vfl Kirchheim Knights vs PS Karlsruhe LIONS": {
+      "id": 1963213549050101,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Vfl Kirchheim Knights": {
+          "runnerId": 1963213549420001,
+          "back": 1.29,
+          "lay": 1.72
+        },
+        "PS Karlsruhe LIONS": {
+          "runnerId": 1963213549460001,
+          "back": 2.38,
+          "lay": 4.5
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Wiha Panthers Schwenningen vs Uni Baskets Paderborn": {
+      "id": 1963213548210001,
+      "start": "2022-01-16T16:00:00.000Z",
+      "allRunners": {
+        "Wiha Panthers Schwenningen": {
+          "runnerId": 1963213548580001,
+          "back": 1.56,
+          "lay": 2.4
+        },
+        "Uni Baskets Paderborn": {
+          "runnerId": 1963213548610101,
+          "back": 1.71,
+          "lay": 2.8
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "MoraBanc Andorra vs TD Systems Baskonia Vitoria Gasteiz": {
+      "id": 1961620703170001,
+      "start": "2022-01-16T16:30:00.000Z",
+      "allRunners": {
+        "MoraBanc Andorra": {
+          "runnerId": 1961620703410001,
+          "back": 2.18,
+          "lay": 2.56
+        },
+        "TD Systems Baskonia Vitoria Gasteiz": {
+          "runnerId": 1961620703460001,
+          "back": 1.64,
+          "lay": 1.85
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Swans Gmünden vs SKN St. Pölten": {
+      "id": 1963222294900001,
+      "start": "2022-01-16T16:30:00.000Z",
+      "allRunners": {
+        "Swans Gmünden": {
+          "runnerId": 1963222295440001,
+          "back": 1.39,
+          "lay": 1.54
+        },
+        "SKN St. Pölten": {
+          "runnerId": 1963222295470101,
+          "back": 2.84,
+          "lay": 3.6
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Arged BM Slam Stal Ostrów Wielkopolski vs STK Czarni Slupsk": {
+      "id": 1961594747950001,
+      "start": "2022-01-16T16:35:00.000Z",
+      "allRunners": {
+        "Arged BM Slam Stal Ostrów Wielkopolski": {
+          "runnerId": 1961594748170001,
+          "back": 0,
+          "lay": 1.45
+        },
+        "STK Czarni Slupsk": {
+          "runnerId": 1961594748210101,
+          "back": 3.2,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Butler Bulldogs at Villanova Wildcats": {
+      "id": 1963191511730001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "Butler Bulldogs": {
+          "runnerId": 1963191511980001,
+          "back": 8,
+          "lay": 11
+        },
+        "Villanova Wildcats": {
+          "runnerId": 1963191511940001,
+          "back": 1.1,
+          "lay": 1.15
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Gevi Napoli vs Lavoropiu Fortitudo Bologna": {
+      "id": 1963215682380001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "Gevi Napoli": {
+          "runnerId": 1963215682820101,
+          "back": 1.53,
+          "lay": 1.66
+        },
+        "Lavoropiu Fortitudo Bologna": {
+          "runnerId": 1963215682870001,
+          "back": 2.5,
+          "lay": 2.9
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Manchester Giants vs Plymouth City Patriots": {
+      "id": 1963184135210001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "Manchester Giants": {
+          "runnerId": 1963184135680101,
+          "back": 0,
+          "lay": 1.13
+        },
+        "Plymouth City Patriots": {
+          "runnerId": 1963184135720001,
+          "back": 8.6,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Penn State Nittany Lions at Ohio State Buckeyes": {
+      "id": 1963191498360001,
+      "start": "2022-01-16T17:00:00.000Z",
+      "allRunners": {
+        "Penn State Nittany Lions": {
+          "runnerId": 1963191498650101,
+          "back": 3.85,
+          "lay": 4.9
+        },
+        "Ohio State Buckeyes": {
+          "runnerId": 1963191498610001,
+          "back": 1.25,
+          "lay": 1.36
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Anadolu Efes vs Besiktas Icrypex": {
+      "id": 1962437288720001,
+      "start": "2022-01-16T17:15:00.000Z",
+      "allRunners": {
+        "Anadolu Efes": {
+          "runnerId": 1962437288950001,
+          "back": 1.01,
+          "lay": 1.19
+        },
+        "Besiktas Icrypex": {
+          "runnerId": 1962437288990001,
+          "back": 6.2,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Cheshire Phoenix vs Glasgow Rocks": {
+      "id": 1963184048290001,
+      "start": "2022-01-16T17:30:00.000Z",
+      "allRunners": {
+        "Cheshire Phoenix": {
+          "runnerId": 1963184048850001,
+          "back": 0,
+          "lay": 1.66
+        },
+        "Glasgow Rocks": {
+          "runnerId": 1963184048890101,
+          "back": 2.5,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Binghamton Bearcats at Maine Black Bears": {
+      "id": 1963191525900001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Binghamton Bearcats": {
+          "runnerId": 1963191526150001,
+          "back": 0,
+          "lay": 0
+        },
+        "Maine Black Bears": {
+          "runnerId": 1963191526110001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Cincinnati Bearcats at Wichita State Shockers": {
+      "id": 1963191515750001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Cincinnati Bearcats": {
+          "runnerId": 1963191516010001,
+          "back": 1.95,
+          "lay": 2.3
+        },
+        "Wichita State Shockers": {
+          "runnerId": 1963191515970001,
+          "back": 1.76,
+          "lay": 2.06
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "CS Municipal Ploiesti vs BC CSU Sibiu": {
+      "id": 1963226078700001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "CS Municipal Ploiesti": {
+          "runnerId": 1963226079110101,
+          "back": 2.32,
+          "lay": 0
+        },
+        "BC CSU Sibiu": {
+          "runnerId": 1963226079150101,
+          "back": 1.57,
+          "lay": 1.76
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Niagara Purple Eagles at Iona Gaels": {
+      "id": 1963191528400001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Niagara Purple Eagles": {
+          "runnerId": 1963191528660001,
+          "back": 0,
+          "lay": 0
+        },
+        "Iona Gaels": {
+          "runnerId": 1963191528620001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Peristeri BC vs AEK Athens": {
+      "id": 1963217195120001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Peristeri BC": {
+          "runnerId": 1963217195700101,
+          "back": 1.62,
+          "lay": 1.81
+        },
+        "AEK Athens": {
+          "runnerId": 1963217195740101,
+          "back": 2.22,
+          "lay": 2.62
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Phoenix Suns at Detroit Pistons": {
+      "id": 1962106776440001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Phoenix Suns": {
+          "runnerId": 1962106784290001,
+          "back": 1.13,
+          "lay": 1.19
+        },
+        "Detroit Pistons": {
+          "runnerId": 1962106784250001,
+          "back": 0,
+          "lay": 8.8
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "U.S. Naval Academy Midshipmen at Boston Terriers": {
+      "id": 1963191518690001,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "U.S. Naval Academy Midshipmen": {
+          "runnerId": 1963191518970001,
+          "back": 0,
+          "lay": 0
+        },
+        "Boston Terriers": {
+          "runnerId": 1963191518920001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "NBA - Eastern Conference Winner 2021/2022": {
+      "id": 1847141392700001,
+      "start": "2022-01-16T18:10:00.000Z",
+      "allRunners": {
+        "Brooklyn Nets": {
+          "runnerId": 1847152522370001,
+          "back": 0,
+          "lay": 0
+        },
+        "Milwaukee Bucks": {
+          "runnerId": 1847152522400101,
+          "back": 0,
+          "lay": 0
+        },
+        "Philadelphia 76ers": {
+          "runnerId": 1847152522440001,
+          "back": 0,
+          "lay": 0
+        },
+        "Miami Heat": {
+          "runnerId": 1847152522460101,
+          "back": 0,
+          "lay": 0
+        },
+        "Boston Celtics": {
+          "runnerId": 1847152522490001,
+          "back": 0,
+          "lay": 0
+        },
+        "Atlanta Hawks": {
+          "runnerId": 1847152522520001,
+          "back": 0,
+          "lay": 0
+        },
+        "Chicago Bulls": {
+          "runnerId": 1847152522550101,
+          "back": 0,
+          "lay": 0
+        },
+        "New York Knicks": {
+          "runnerId": 1847152522580101,
+          "back": 0,
+          "lay": 0
+        },
+        "Indiana Pacers": {
+          "runnerId": 1847152522610001,
+          "back": 0,
+          "lay": 0
+        },
+        "Toronto Raptors": {
+          "runnerId": 1847152522640001,
+          "back": 0,
+          "lay": 0
+        },
+        "Washington Wizards": {
+          "runnerId": 1847152522660101,
+          "back": 0,
+          "lay": 0
+        },
+        "Cleveland Cavaliers": {
+          "runnerId": 1847152522690101,
+          "back": 0,
+          "lay": 0
+        },
+        "Detroit Pistons": {
+          "runnerId": 1847152522720101,
+          "back": 0,
+          "lay": 0
+        },
+        "Orlando Magic": {
+          "runnerId": 1847152522750101,
+          "back": 0,
+          "lay": 0
+        },
+        "Charlotte Hornets": {
+          "runnerId": 1847152522780001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "NBA - Western Conference Winner 2021/2022": {
+      "id": 1847142487410001,
+      "start": "2022-01-16T18:10:00.000Z",
+      "allRunners": {
+        "Los Angeles Lakers": {
+          "runnerId": 1847151229660001,
+          "back": 0,
+          "lay": 0
+        },
+        "Golden State Warriors": {
+          "runnerId": 1847151229700101,
+          "back": 0,
+          "lay": 0
+        },
+        "Phoenix Suns": {
+          "runnerId": 1847151229740001,
+          "back": 0,
+          "lay": 0
+        },
+        "Utah Jazz": {
+          "runnerId": 1847151229770001,
+          "back": 0,
+          "lay": 0
+        },
+        "Denver Nuggets": {
+          "runnerId": 1847151229800001,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Clippers": {
+          "runnerId": 1847151229830001,
+          "back": 0,
+          "lay": 0
+        },
+        "Dallas Mavericks": {
+          "runnerId": 1847151229860101,
+          "back": 0,
+          "lay": 0
+        },
+        "Houston Rockets": {
+          "runnerId": 1847151229900001,
+          "back": 0,
+          "lay": 0
+        },
+        "San Antonio Spurs": {
+          "runnerId": 1847151229930001,
+          "back": 0,
+          "lay": 0
+        },
+        "Minnesota Timberwolves": {
+          "runnerId": 1847151229960001,
+          "back": 0,
+          "lay": 0
+        },
+        "Oklahoma City Thunder": {
+          "runnerId": 1847151229980101,
+          "back": 0,
+          "lay": 0
+        },
+        "Portland Trail Blazers": {
+          "runnerId": 1847151230010101,
+          "back": 0,
+          "lay": 0
+        },
+        "Memphis Grizzlies": {
+          "runnerId": 1847151230040101,
+          "back": 0,
+          "lay": 0
+        },
+        "Sacramento Kings": {
+          "runnerId": 1847151230070101,
+          "back": 0,
+          "lay": 0
+        },
+        "New Orleans Pelicans": {
+          "runnerId": 1847151230110001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "NBA Championship 2021/2022": {
+      "id": 1847127573380001,
+      "start": "2022-01-16T18:10:00.000Z",
+      "allRunners": {
+        "Brooklyn Nets": {
+          "runnerId": 1847151942900001,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Lakers": {
+          "runnerId": 1847151942940001,
+          "back": 0,
+          "lay": 0
+        },
+        "Milwaukee Bucks": {
+          "runnerId": 1847151942970001,
+          "back": 0,
+          "lay": 0
+        },
+        "Golden State Warriors": {
+          "runnerId": 1847151943000101,
+          "back": 0,
+          "lay": 0
+        },
+        "Phoenix Suns": {
+          "runnerId": 1847151943040001,
+          "back": 0,
+          "lay": 0
+        },
+        "Utah Jazz": {
+          "runnerId": 1847151943090001,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Clippers": {
+          "runnerId": 1847151943140001,
+          "back": 0,
+          "lay": 0
+        },
+        "Philadelphia 76ers": {
+          "runnerId": 1847151943190001,
+          "back": 0,
+          "lay": 0
+        },
+        "Miami Heat": {
+          "runnerId": 1847151943230001,
+          "back": 0,
+          "lay": 0
+        },
+        "Denver Nuggets": {
+          "runnerId": 1847151943280001,
+          "back": 0,
+          "lay": 0
+        },
+        "Dallas Mavericks": {
+          "runnerId": 1847151943330001,
+          "back": 0,
+          "lay": 0
+        },
+        "Atlanta Hawks": {
+          "runnerId": 1847151943380001,
+          "back": 0,
+          "lay": 0
+        },
+        "Boston Celtics": {
+          "runnerId": 1847151943430001,
+          "back": 0,
+          "lay": 0
+        },
+        "Chicago Bulls": {
+          "runnerId": 1847151943470001,
+          "back": 0,
+          "lay": 0
+        },
+        "Portland Trail Blazers": {
+          "runnerId": 1847151943520101,
+          "back": 0,
+          "lay": 0
+        },
+        "New York Knicks": {
+          "runnerId": 1847151943580001,
+          "back": 0,
+          "lay": 0
+        },
+        "New Orleans Pelicans": {
+          "runnerId": 1847151943620101,
+          "back": 0,
+          "lay": 0
+        },
+        "Memphis Grizzlies": {
+          "runnerId": 1847151943670001,
+          "back": 0,
+          "lay": 0
+        },
+        "Toronto Raptors": {
+          "runnerId": 1847151943720001,
+          "back": 0,
+          "lay": 0
+        },
+        "Indiana Pacers": {
+          "runnerId": 1847151943770001,
+          "back": 0,
+          "lay": 0
+        },
+        "Washington Wizards": {
+          "runnerId": 1847151943820001,
+          "back": 0,
+          "lay": 0
+        },
+        "San Antonio Spurs": {
+          "runnerId": 1847151943870001,
+          "back": 0,
+          "lay": 0
+        },
+        "Sacramento Kings": {
+          "runnerId": 1847151943920001,
+          "back": 0,
+          "lay": 0
+        },
+        "Charlotte Hornets": {
+          "runnerId": 1847151943970001,
+          "back": 0,
+          "lay": 0
+        },
+        "Oklahoma City Thunder": {
+          "runnerId": 1847151944010101,
+          "back": 0,
+          "lay": 0
+        },
+        "Cleveland Cavaliers": {
+          "runnerId": 1847151944060101,
+          "back": 0,
+          "lay": 0
+        },
+        "Houston Rockets": {
+          "runnerId": 1847151944100101,
+          "back": 0,
+          "lay": 0
+        },
+        "Detroit Pistons": {
+          "runnerId": 1847151944160001,
+          "back": 0,
+          "lay": 0
+        },
+        "Orlando Magic": {
+          "runnerId": 1847151944200001,
+          "back": 0,
+          "lay": 0
+        },
+        "Minnesota Timberwolves": {
+          "runnerId": 1847151944250001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Iraurgi SB vs Levitec Huesca": {
+      "id": 1963181250380001,
+      "start": "2022-01-16T18:30:00.000Z",
+      "allRunners": {
+        "Iraurgi SB": {
+          "runnerId": 1963181250810001,
+          "back": 1.3,
+          "lay": 1.4
+        },
+        "Levitec Huesca": {
+          "runnerId": 1963181250850001,
+          "back": 3.5,
+          "lay": 4.4
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Bucknell Bison at American Eagles": {
+      "id": 1963191543480001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Bucknell Bison": {
+          "runnerId": 1963191543750101,
+          "back": 0,
+          "lay": 0
+        },
+        "American Eagles": {
+          "runnerId": 1963191543710001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Canisius Golden Griffins at Manhattan Jaspers": {
+      "id": 1963191552620001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Canisius Golden Griffins": {
+          "runnerId": 1963191552870001,
+          "back": 2.44,
+          "lay": 2.98
+        },
+        "Manhattan Jaspers": {
+          "runnerId": 1963191552830001,
+          "back": 1.5,
+          "lay": 1.7
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Fairfield Stags at Quinnipiac Bobcats": {
+      "id": 1963191550090001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Fairfield Stags": {
+          "runnerId": 1963191550350001,
+          "back": 0,
+          "lay": 0
+        },
+        "Quinnipiac Bobcats": {
+          "runnerId": 1963191550310001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Germani Brescia Leonessa vs Happy Casa Brindisi": {
+      "id": 1963215677260001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Germani Brescia Leonessa": {
+          "runnerId": 1963215677760001,
+          "back": 0,
+          "lay": 2.72
+        },
+        "Happy Casa Brindisi": {
+          "runnerId": 1963215677790101,
+          "back": 1.58,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Iowa Hawkeyes at Minnesota Golden Gophers": {
+      "id": 1963191506540001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Iowa Hawkeyes": {
+          "runnerId": 1963191506790001,
+          "back": 1.4,
+          "lay": 1.55
+        },
+        "Minnesota Golden Gophers": {
+          "runnerId": 1963191506750001,
+          "back": 2.8,
+          "lay": 3.5
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Monmouth Hawks at Marist Red Foxes": {
+      "id": 1963191547740001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Monmouth Hawks": {
+          "runnerId": 1963191547990001,
+          "back": 1.54,
+          "lay": 1.74
+        },
+        "Marist Red Foxes": {
+          "runnerId": 1963191547950001,
+          "back": 2.34,
+          "lay": 2.86
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Saint Peter's Peacocks at Rider Broncs": {
+      "id": 1963191554940001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "Saint Peter's Peacocks": {
+          "runnerId": 1963191555190101,
+          "back": 1.67,
+          "lay": 1.92
+        },
+        "Rider Broncs": {
+          "runnerId": 1963191555160001,
+          "back": 2.08,
+          "lay": 2.5
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "U.S. Army Black Knights at Lafayette Leopards": {
+      "id": 1963191533770001,
+      "start": "2022-01-16T19:00:00.000Z",
+      "allRunners": {
+        "U.S. Army Black Knights": {
+          "runnerId": 1963191534050001,
+          "back": 0,
+          "lay": 0
+        },
+        "Lafayette Leopards": {
+          "runnerId": 1963191534010001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Allianz Pallacanestro Trieste vs UNAHOTELS Reggio Emilia": {
+      "id": 1963215672290001,
+      "start": "2022-01-16T19:45:00.000Z",
+      "allRunners": {
+        "Allianz Pallacanestro Trieste": {
+          "runnerId": 1963215672890001,
+          "back": 1.74,
+          "lay": 1.87
+        },
+        "UNAHOTELS Reggio Emilia": {
+          "runnerId": 1963215672930001,
+          "back": 2.14,
+          "lay": 2.36
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Louisiana Tech Bulldogs at Southern Mississippi Golden Eagles": {
+      "id": 1963471972700001,
+      "start": "2022-01-16T20:00:00.000Z",
+      "allRunners": {
+        "Louisiana Tech Bulldogs": {
+          "runnerId": 1963471973960101,
+          "back": 1.15,
+          "lay": 1.21
+        },
+        "Southern Mississippi Golden Eagles": {
+          "runnerId": 1963471973930001,
+          "back": 5.7,
+          "lay": 7.8
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Georgetown Hoyas at St. John's Red Storm": {
+      "id": 1963471940810001,
+      "start": "2022-01-16T21:30:00.000Z",
+      "allRunners": {
+        "Georgetown Hoyas": {
+          "runnerId": 1963471942020001,
+          "back": 0,
+          "lay": 0
+        },
+        "St. John's Red Storm": {
+          "runnerId": 1963471941980101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Houston Rockets at Sacramento Kings": {
+      "id": 1961652485820001,
+      "start": "2022-01-16T23:00:00.000Z",
+      "allRunners": {
+        "Houston Rockets": {
+          "runnerId": 1961652489680001,
+          "back": 2.88,
+          "lay": 0
+        },
+        "Sacramento Kings": {
+          "runnerId": 1961652489640101,
+          "back": 1.43,
+          "lay": 1.54
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Loyola-Maryland Greyhounds at Lehigh Mountain Hawks": {
+      "id": 1963191538420001,
+      "start": "2022-01-16T23:00:00.000Z",
+      "allRunners": {
+        "Loyola-Maryland Greyhounds": {
+          "runnerId": 1963191538690001,
+          "back": 0,
+          "lay": 0
+        },
+        "Lehigh Mountain Hawks": {
+          "runnerId": 1963191538650001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

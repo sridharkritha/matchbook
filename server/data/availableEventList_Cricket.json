@@ -1,0 +1,29 @@
+{
+  "id": 110,
+  "events": {
+    "Northern Brave Women vs Wellington Blaze Women": {
+      "id": 1961629953210001,
+      "start": "2022-01-15T21:10:00.000Z",
+      "allRunners": {
+        "Northern Brave Women": {
+          "runnerId": 1961629953450001,
+          "back": 0,
+          "lay": 0
+        },
+        "Wellington Blaze Women": {
+          "runnerId": 1961629953500001,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 3,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "userBalance": 10.05,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

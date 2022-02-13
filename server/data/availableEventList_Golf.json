@@ -1,0 +1,101 @@
+{
+  "id": 8,
+  "events": {
+    "Stewart Cink vs Ryan Armour (R4)": {
+      "id": 1963634096470001,
+      "start": "2022-01-16T20:40:00.000Z",
+      "allRunners": {
+        "Stewart Cink": {
+          "runnerId": 1963634096710001,
+          "back": 1.77,
+          "lay": 1.93
+        },
+        "Ryan Armour": {
+          "runnerId": 1963634096740101,
+          "back": 2.08,
+          "lay": 2.3
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Wesley Bryan vs Dylan Wu  (R4)": {
+      "id": 1963634096810001,
+      "start": "2022-01-16T20:50:00.000Z",
+      "allRunners": {
+        "Wesley Bryan": {
+          "runnerId": 1963634097020001,
+          "back": 1.99,
+          "lay": 2.22
+        },
+        "Dylan Wu": {
+          "runnerId": 1963634097050101,
+          "back": 1.83,
+          "lay": 2.02
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Andrew Putnam vs Greyson Sigg  (R4)": {
+      "id": 1963634097130001,
+      "start": "2022-01-16T21:00:00.000Z",
+      "allRunners": {
+        "Andrew Putnam": {
+          "runnerId": 1963634097320001,
+          "back": 1.87,
+          "lay": 2.06
+        },
+        "Greyson Sigg": {
+          "runnerId": 1963634097350101,
+          "back": 1.95,
+          "lay": 2.16
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Davis Riley vs Corey Conners  (R4)": {
+      "id": 1963634097420001,
+      "start": "2022-01-16T21:10:00.000Z",
+      "allRunners": {
+        "Davis Riley": {
+          "runnerId": 1963634097610001,
+          "back": 2.54,
+          "lay": 2.9
+        },
+        "Corey Conners": {
+          "runnerId": 1963634097640001,
+          "back": 1.53,
+          "lay": 1.65
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 4.4,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

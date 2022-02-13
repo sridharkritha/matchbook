@@ -1,0 +1,29 @@
+{
+  "id": 120,
+  "events": {
+    "Neil Robertson vs Barry Hawkins": {
+      "id": 1963330282250001,
+      "start": "2022-01-16T13:10:00.000Z",
+      "allRunners": {
+        "Neil Robertson": {
+          "runnerId": 1963330282470001,
+          "back": 1.42,
+          "lay": 1.52
+        },
+        "Barry Hawkins": {
+          "runnerId": 1963330282520001,
+          "back": 2.94,
+          "lay": 3.4
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 2.2,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

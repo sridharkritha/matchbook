@@ -1,0 +1,176 @@
+{
+  "id": 1,
+  "events": {
+    "Philadelphia Eagles at Tampa Bay Buccaneers": {
+      "id": 1958359191960016,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Philadelphia Eagles": {
+          "runnerId": 1958359192260016,
+          "back": 4,
+          "lay": 4.2
+        },
+        "Tampa Bay Buccaneers": {
+          "runnerId": 1958359192210016,
+          "back": 1.32,
+          "lay": 1.33
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "Super Bowl LVI": {
+      "id": 1686146728990011,
+      "start": "2022-01-16T18:00:00.000Z",
+      "allRunners": {
+        "Green Bay Packers": {
+          "runnerId": 1686158458690011,
+          "back": 0,
+          "lay": 0
+        },
+        "Kansas City Chiefs": {
+          "runnerId": 1686158458580011,
+          "back": 0,
+          "lay": 0
+        },
+        "Tampa Bay Buccaneers": {
+          "runnerId": 1686158458640011,
+          "back": 0,
+          "lay": 0
+        },
+        "Buffalo Bills": {
+          "runnerId": 1686158458760011,
+          "back": 0,
+          "lay": 0
+        },
+        "Tennessee Titans": {
+          "runnerId": 1686158459060111,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Rams": {
+          "runnerId": 1686158458790011,
+          "back": 0,
+          "lay": 0
+        },
+        "Dallas Cowboys": {
+          "runnerId": 1686158459040011,
+          "back": 0,
+          "lay": 0
+        },
+        "Cincinnati Bengals": {
+          "runnerId": 1686158459510011,
+          "back": 0,
+          "lay": 0
+        },
+        "San Francisco 49ers": {
+          "runnerId": 1686158458820111,
+          "back": 0,
+          "lay": 0
+        },
+        "Arizona Cardinals": {
+          "runnerId": 1686158459180111,
+          "back": 0,
+          "lay": 0
+        },
+        "Pittsburgh Steelers": {
+          "runnerId": 1686158459150111,
+          "back": 0,
+          "lay": 0
+        },
+        "Philadelphia Eagles": {
+          "runnerId": 1686158459460011,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "NFL - NFC Conference": {
+      "id": 1798753448650029,
+      "start": "2022-01-16T18:00:01.000Z",
+      "allRunners": {
+        "Green Bay Packers": {
+          "runnerId": 1798813455430029,
+          "back": 0,
+          "lay": 0
+        },
+        "Tampa Bay Buccaneers": {
+          "runnerId": 1798813455300029,
+          "back": 0,
+          "lay": 0
+        },
+        "Dallas Cowboys": {
+          "runnerId": 1798813455550129,
+          "back": 0,
+          "lay": 0
+        },
+        "Los Angeles Rams": {
+          "runnerId": 1798813455340129,
+          "back": 0,
+          "lay": 0
+        },
+        "Arizona Cardinals": {
+          "runnerId": 1798813455580129,
+          "back": 0,
+          "lay": 0
+        },
+        "San Francisco 49ers": {
+          "runnerId": 1798813455380029,
+          "back": 0,
+          "lay": 0
+        },
+        "Philadelphia Eagles": {
+          "runnerId": 1798813455740129,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    },
+    "San Francisco 49ers at Dallas Cowboys": {
+      "id": 1958359958360016,
+      "start": "2022-01-16T21:30:00.000Z",
+      "allRunners": {
+        "San Francisco 49ers": {
+          "runnerId": 1958359958670016,
+          "back": 2.48,
+          "lay": 2.58
+        },
+        "Dallas Cowboys": {
+          "runnerId": 1958359958620016,
+          "back": 1.64,
+          "lay": 1.67
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "userBalance": 8.89,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}

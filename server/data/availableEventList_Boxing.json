@@ -1,0 +1,34 @@
+{
+  "id": 14,
+  "events": {
+    "Omar Rosario vs Raekwon Butler": {
+      "id": 1961020999280001,
+      "start": "2022-01-15T23:00:00.000Z",
+      "allRunners": {
+        "Omar Rosario": {
+          "runnerId": 1961020999550001,
+          "back": 0,
+          "lay": 0
+        },
+        "Raekwon Butler": {
+          "runnerId": 1961020999590001,
+          "back": 0,
+          "lay": 0
+        },
+        "DRAW (Oma/Rae)": {
+          "runnerId": 1961020999620101,
+          "back": 0,
+          "lay": 0
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "todayTotalBetAmountLimit": 6,
+        "sumOfAlreadyPlacedBetAmount": 6,
+        "userBalance": 8.85,
+        "winConfidencePercentage": 80,
+        "minProfitOdd": 0.7
+      }
+    }
+  }
+}
