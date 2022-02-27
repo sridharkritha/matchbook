@@ -219,17 +219,28 @@ window.addEventListener('load', function() {
 		let eventMatchTypes = [];
 		let event = null;
 		let matchType = null;
-		for(let i = 0, n = result.transactions; i < n; ++i) {
+		for(let i = 0, n = result.transactions.length; i < n; ++i) {
 			if(result.transactions[i]["transaction-type"] === "Payout") {
 
 				eventMatchTypes = result.transactions[i]["detail"].split("|");
 				event = eventMatchTypes[0];
 				matchType = eventMatchTypes[1];
+
+				if(!groupedStats[matchType]) groupedStats[matchType] = { };
+				if(result.transactions[i]["credit"] > 0) { // win
+					if(groupedStats[matchType].winCount) groupedStats[matchType].winCount++;
+					else groupedStats[matchType].winCount = 1;
+				} 
+				else {
+					if(groupedStats[matchType].lossCount) groupedStats[matchType].lossCount++;
+					else groupedStats[matchType].lossCount = 1;
+				}
 			}
 		}
 
 
 		
+		console.log(groupedStats);
 		console.log(result);
 		showHTMLContent(result);
 	};
