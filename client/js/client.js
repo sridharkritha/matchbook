@@ -8,10 +8,11 @@ window.addEventListener('load', function() {
 
 	// enum - constants
 	const g_SYMBOL_CONSTANTS = Object.freeze({
-		"ALL_PREDICTION_LIST"     :  "ALL_PREDICTION_LIST",
-		"CURRENT_PREDICTION_LIST" :  "CURRENT_PREDICTION_LIST",
-		"PLACED_BET_LIST"         :  "PLACED_BET_LIST",
-		"LOG_MESSAGES"            :  "LOG_MESSAGES"
+		"ALL_PREDICTION_LIST"     : "ALL_PREDICTION_LIST",
+		"CURRENT_PREDICTION_LIST" : "CURRENT_PREDICTION_LIST",
+		"PLACED_BET_LIST"         : "PLACED_BET_LIST",
+		"LOG_MESSAGES"            : "LOG_MESSAGES",
+		"RESULT_STATS"            : "RESULT_STATS"
 	});
 
 	printRunner = function(runnerName, odd, cssClass) {
@@ -30,7 +31,11 @@ window.addEventListener('load', function() {
 	};
 
 	showLogMessages = function() {
-		const htmlContent = `<div class="sportsName"><div class ="commonClass"><b>${g_logMessages}</b></div></div>`;
+		showHTMLContent(g_logMessages);
+	};
+
+	showHTMLContent = function(data) {
+		const htmlContent = `<div class="sportsName"><div class ="commonClass"><b>${data}</b></div></div>`;
 		fillMainHTMLContent("", htmlContent);
 	};
 
@@ -127,9 +132,10 @@ window.addEventListener('load', function() {
 	document.querySelector('#allPredictionBtnId').addEventListener('click', showResults);
 	document.querySelector('#currentPredictionBtnId').addEventListener('click', showResults);
 	document.querySelector('#placedBetBtnId').addEventListener('click', showResults);
+	document.querySelector('#resultStatsBtnId').addEventListener('click', showResults);
 	document.querySelector('#logMessagesBtnId').addEventListener('click', showResults);
 
-	document.querySelector('#clearLogMessagesBtnId').addEventListener('click', clearLogMessages);
+	// document.querySelector('#clearLogMessagesBtnId').addEventListener('click', clearLogMessages);
 
 	/////////////////////////////////// SOCKET.IO (start) //////////////////////////////////////////////////////////////
 
@@ -139,8 +145,8 @@ window.addEventListener('load', function() {
 	socket.on('SERVER_TO_CLIENT_ALL_PREDICTED_WINNERS_EVENT',     async (data) => { populateClientPage(data, g_SYMBOL_CONSTANTS.ALL_PREDICTION_LIST); });
 	socket.on('SERVER_TO_CLIENT_CURRENT_PREDICTED_WINNERS_EVENT', async (data) => { populateClientPage(data, g_SYMBOL_CONSTANTS.CURRENT_PREDICTION_LIST); });
 	socket.on('SERVER_TO_CLIENT_ALREADY_PLACED_BETS_EVENT',       async (data) => { populateClientPage(data, g_SYMBOL_CONSTANTS.PLACED_BET_LIST); });
+	socket.on('SERVER_TO_CLIENT_RESULT_STATS_EVENT',              async (data) => { populateClientPage(data, g_SYMBOL_CONSTANTS.RESULT_STATS);});
 	socket.on('SERVER_TO_CLIENT_LOG_MESSAGES_EVENT',              async (data) => { renderLogMessages(data); populateClientPage(data, g_SYMBOL_CONSTANTS.LOG_MESSAGES);});
-
 	// [Client => Server] Send the data from client to server 
 	function notifyToServer(event, data) {
 		socket.emit(event, data);
@@ -171,6 +177,12 @@ window.addEventListener('load', function() {
 				notifyToServer('CLIENT_TO_SERVER_GIVE_ALREADY_PLACED_BETS_EVENT', JSON.stringify({ msg:"give already placed bet list" }));
 				break;
 
+			case g_SYMBOL_CONSTANTS.RESULT_STATS:
+				g_activePageName = this.dataset.key;
+				g_pageNameDisplayArea.innerHTML = `<b>:: RESULT STATS ::</b>`;
+				notifyToServer('CLIENT_TO_SERVER_GIVE_RESULT_STATS_EVENT', JSON.stringify({ msg:"give result stats report" }));
+				break;
+
 			case g_SYMBOL_CONSTANTS.LOG_MESSAGES:
 				g_activePageName = this.dataset.key;
 				g_pageNameDisplayArea.innerHTML = `<b>:: Log Messages ::</b>`;
@@ -190,12 +202,36 @@ window.addEventListener('load', function() {
 			if(g_activePageName === g_SYMBOL_CONSTANTS.LOG_MESSAGES) {
 				showLogMessages();
 			}
+			else if(g_activePageName === g_SYMBOL_CONSTANTS.RESULT_STATS) {
+				renderStats(data);
+			}
 			else {
 				const result = JSON.parse(data);
 				console.log(result);
 				createPredictedWinnersTable(result);
 			}
 		}
+	};
+
+	renderStats = (data) => {
+		const result = JSON.parse(data);
+		let groupedStats = {};
+		let eventMatchTypes = [];
+		let event = null;
+		let matchType = null;
+		for(let i = 0, n = result.transactions; i < n; ++i) {
+			if(result.transactions[i]["transaction-type"] === "Payout") {
+
+				eventMatchTypes = result.transactions[i]["detail"].split("|");
+				event = eventMatchTypes[0];
+				matchType = eventMatchTypes[1];
+			}
+		}
+
+
+		
+		console.log(result);
+		showHTMLContent(result);
 	};
 
 	////////////////////////////////////////////////////////////////////////////

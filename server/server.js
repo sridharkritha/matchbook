@@ -132,6 +132,16 @@
 
 			CONNECTIONS.notifyAllUser('SERVER_TO_CLIENT_ALREADY_PLACED_BETS_EVENT', JSON.stringify(g_alreadyPlacedBetList)); // notify the client
 		});
+
+		// [Client => Server] Receive data from client to server
+		socket.on('CLIENT_TO_SERVER_GIVE_RESULT_STATS_EVENT', async (data) => {
+			const obj = JSON.parse(data);
+			CONNECTIONS.print("must",obj); // client msg
+
+			const resultStats = await getNewWalletTransactions();
+
+			CONNECTIONS.notifyAllUser('SERVER_TO_CLIENT_RESULT_STATS_EVENT', JSON.stringify(resultStats)); // notify the client
+		});
 	});
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -462,6 +472,34 @@
 		});
 	};
 
+	// Get the full data from all pages (default: 20 pages)
+	morePagesPromise = async function(options, perPage, updateMethod, callback, extraArgs) {
+
+		options.qs['per-page'] = perPage;
+
+		/////////////// Wait for before giving a new Http request //////////////////////////////////////////////////////
+		const result = await TIMER.awaitForMaxReqTimeSlot("EVENTS");
+		CONNECTIONS.print("ignore",`${result} of min wait time is finished, ready for giving a next Http request - ${new Date().getTime()}`);
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		const morePagesData = await requestPromise(options);
+
+		
+		const jsonData = JSON.parse(morePagesData);
+
+		return updateMethod(jsonData, callback, extraArgs);
+
+		// request(options, function (error, response, body) {
+		// 	if (error) {
+		// 		return callback(error,null);
+		// 	}
+
+		// 	const jsonData = JSON.parse(body);
+
+		// 	updateMethod(jsonData, callback, extraArgs);
+		// });
+	};
+
 	// Get Events
 	// Get a list of events available on Matchbook ordered by start time.
 	getEvents = function (sport, sports_cbCount, callback) {
@@ -497,6 +535,123 @@
 		// closure needed for storing the sport name ????
 		requestResponse(options, 'events', 'name', keysToFetch, g_whichDayEvent, sport, sports_cbCount, callback);
 	};
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/*
+	const sdk = require('api')('@matchbook/v1.0#gndy15kwdltn1n');
+
+	sdk['get-new-wallet-transactions']({offset: '0', 'per-page': '20', 'User-Agent': 'api-doc-test-client'})
+	  .then(res => console.log(res))
+	  .catch(err => console.error(err));
+
+
+	  const options = {
+		method: 'GET',
+		headers: {Accept: 'application/json', 'User-Agent': 'api-doc-test-client'}
+	  };
+	  
+	  fetch('https://api.matchbook.com/edge/rest/reports/v1/transactions?offset=0&per-page=20', options)
+		.then(response => response.json())
+		.then(response => console.log(response))
+		.catch(err => console.error(err));
+
+
+
+	  GET /edge/rest/reports/v1/transactions?offset=0&per-page=20 HTTP/1.1
+		Accept: application/json
+		User-Agent: api-doc-test-client
+		Host: api.matchbook.com
+	*/
+
+
+
+	getNewWalletTransactions = async function () {
+		let now = new Date();
+		//const yesterday = now.setDate(now.getDate() - 1);
+		const yesterday = now.setDate(now.getDate() - 7);
+		const yesterdayISOFormat = new Date(yesterday).toISOString();
+
+
+
+		const options = UTIL.getDefaultOptions();
+		options.url = 'https://api.matchbook.com/edge/rest/reports/v1/transactions';
+		options.qs = {
+			'offset': '0',
+			'per-page': '20',
+			'after': yesterdayISOFormat
+		};
+
+		// Cookie data for maintaining the session
+		options.headers['session-token'] = g_sessionToken;
+
+		// CONNECTIONS.print("ignore",options);
+
+		/////////////// Wait for before giving a new Http request //////////////////////////////////////////////////////
+		const result = await TIMER.awaitForMaxReqTimeSlot("EVENTS");
+		CONNECTIONS.print("ignore", `${result} of min wait time is finished, ready for giving a next Http request - ${new Date().getTime()}`);
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+		const transactionData = await requestPromise(options);
+		const jsonData = JSON.parse(transactionData);
+		// console.log(jsonFormat);
+		const moreTransactionData = await morePagesPromise(options, jsonData.total, publishSettledReport);
+		return moreTransactionData;
+
+
+
+		// request(options, function (error, response, body) {
+		// 	if (error) {
+		// 		CONNECTIONS.print("must", "Failed inside getNewWalletTransactions() !!!");
+		// 		throw new Error(error);
+		// 	}
+
+		// 	const jsonData = JSON.parse(body);
+		// 	// console.log(jsonFormat);
+		// 	morePages(options, jsonData.total, publishSettledReport);
+		// });
+	};
+
+	const requestPromise = (options) => {
+		return new Promise((resolve, reject) => {
+			request(options, function (error, response, body) {
+				if (error) return reject(error);
+				// const jsonData = JSON.parse(body);
+				// console.log(jsonFormat);
+				resolve(body);
+			});
+		});
+	};
+
+
+	// // Get the full data from all pages (default: 20 pages)
+	// morePages = async function(options, perPage, updateMethod, callback, extraArgs) {
+
+	// 	options.qs['per-page'] = perPage;
+
+	// 	/////////////// Wait for before giving a new Http request //////////////////////////////////////////////////////
+	// 	const result = await TIMER.awaitForMaxReqTimeSlot("EVENTS");
+	// 	CONNECTIONS.print("ignore",`${result} of min wait time is finished, ready for giving a next Http request - ${new Date().getTime()}`);
+	// 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// 	request(options, function (error, response, body) {
+	// 		if (error) {
+	// 			return callback(error,null);
+	// 		}
+
+	// 		const jsonData = JSON.parse(body);
+
+	// 		updateMethod(jsonData, callback, extraArgs);
+	// 	});
+	// };
+
+
+	publishSettledReport =  function(jsonFormat) {
+		console.log(jsonFormat);
+		return jsonFormat;
+	};
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	// Get Event
 	getEvent = async function (event_id, callback) {
@@ -1244,6 +1399,8 @@
 			getUserBalance();
 
 			getMoneyStatusRecord();
+
+			getNewWalletTransactions();
 
 			run();
 		}
