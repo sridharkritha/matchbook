@@ -55,6 +55,21 @@ window.addEventListener('load', function() {
 		fillMainHTMLContent("", "");
 	};
 
+	printStats = function(data) {
+		g_runnersStr = "";		
+
+		for (let key in data) {
+			if (data.hasOwnProperty(key)) {
+				console.log(key);         // key
+				console.log(data[key]); // value
+
+				printRunner(key, `LossCount: ${data[key].lossCount ? data[key].lossCount : 0}, WinCount: ${data[key].winCount ? data[key].winCount : 0})`, 'cssWinnerClass');
+			}
+		}
+
+		fillMainHTMLContent("", g_runnersStr);
+	};
+
 	createPredictedWinnersTable = function(predictedWinnerList) {
 		let eventCounter = 0;
 		g_runnersStr = "";
@@ -239,10 +254,9 @@ window.addEventListener('load', function() {
 		}
 
 
-		
 		console.log(groupedStats);
 		console.log(result);
-		showHTMLContent(result);
+		printStats(groupedStats);
 	};
 
 	////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,169 @@
+{
+  "id": 116,
+  "events": {
+    "Aspinall, N vs Wade, J": {
+      "id": 2000205244810056,
+      "start": "2022-02-27T18:00:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 11.41,
+        "eventInfoObj": {
+          "id": 2000205244810056,
+          "start": "2022-02-27T18:00:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Moneyline": {
+          "market-id": 2000205245720056,
+          "allRunners": {
+            "Nathan Aspinall": {
+              "runnerId": 2000205245880056,
+              "back": 0,
+              "lay": 0
+            },
+            "James Wade": {
+              "runnerId": 2000205245920056,
+              "back": 0,
+              "lay": 0
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    },
+    "Noppert, D vs Price, G": {
+      "id": 2000205245390056,
+      "start": "2022-02-27T18:30:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 11.41,
+        "eventInfoObj": {
+          "id": 2000205245390056,
+          "start": "2022-02-27T18:30:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Moneyline": {
+          "market-id": 2000205245850056,
+          "allRunners": {
+            "Danny Noppert": {
+              "runnerId": 2000205246060056,
+              "back": 0,
+              "lay": 0
+            },
+            "Gerwyn Price": {
+              "runnerId": 2000205246100056,
+              "back": 0,
+              "lay": 0
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    },
+    "van den Bergh, D vs Clayton, J": {
+      "id": 2000205245410156,
+      "start": "2022-02-27T19:00:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 11.41,
+        "eventInfoObj": {
+          "id": 2000205245410156,
+          "start": "2022-02-27T19:00:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Moneyline": {
+          "market-id": 2000205245860056,
+          "allRunners": {
+            "Dimitri van den Bergh": {
+              "runnerId": 2000205246080056,
+              "back": 0,
+              "lay": 0
+            },
+            "Jonny Clayton": {
+              "runnerId": 2000205246130056,
+              "back": 0,
+              "lay": 0
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    },
+    "Wright, P vs Smith, M": {
+      "id": 2000205245130056,
+      "start": "2022-02-27T19:30:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 11.41,
+        "eventInfoObj": {
+          "id": 2000205245130056,
+          "start": "2022-02-27T19:30:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Moneyline": {
+          "market-id": 2000205245690156,
+          "allRunners": {
+            "Peter Wright": {
+              "runnerId": 2000205245860156,
+              "back": 0,
+              "lay": 0
+            },
+            "Michael Smith": {
+              "runnerId": 2000205245910156,
+              "back": 0,
+              "lay": 0
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    }
+  }
+}

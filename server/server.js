@@ -567,8 +567,10 @@
 
 	getNewWalletTransactions = async function () {
 		let now = new Date();
-		//const yesterday = now.setDate(now.getDate() - 1);
-		const yesterday = now.setDate(now.getDate() - 7);
+		// const yesterday = now.setDate(now.getDate() - 1);
+		// const yesterday = now.setDate(now.getDate() - 7);
+		// const yesterday = now.setDate(now.getDate() - 30);
+		const yesterday = now.setDate(now.getDate() - 15);
 		const yesterdayISOFormat = new Date(yesterday).toISOString();
 
 
