@@ -1,6 +1,15 @@
 
 window.addEventListener('load', function() {
 
+	////////////////////////////////////////////////// UTILS (start) ///////////////////////////////////////////////////
+	// round after 2 decimal places
+	roundIt2D = function(value) {
+		// return Math.floor(value * 100) / 100;                 // 0.3 - 0.2 = 0.09  (or) 1.256 => 1.25 
+		return Math.round((value + Number.EPSILON) * 100) / 100; // 0.3 - 0.2 = 0.1
+	};
+	////////////////////////////////////////////////// UTILS (end) /////////////////////////////////////////////////////
+
+
 	let g_runnersStr  = "";
 	let g_logMessages = "";
 	let g_logMessagesBuffer = ""; 
@@ -56,18 +65,39 @@ window.addEventListener('load', function() {
 	};
 
 	printStats = function(data) {
-		g_runnersStr = "";		
+		// g_runnersStr = "";
+		let totalGames = 0;
+		let lossCount = 0;
+		let winCount = 0;
+		let count = 0;
+		let cssClass = 'cssWinnerClass';
 
 		for (let key in data) {
 			if (data.hasOwnProperty(key)) {
-				console.log(key);         // key
+				console.log(key);       // key
 				console.log(data[key]); // value
 
-				printRunner(key, `LossCount: ${data[key].lossCount ? data[key].lossCount : 0}, WinCount: ${data[key].winCount ? data[key].winCount : 0})`, 'cssWinnerClass');
+				lossCount = data[key].lossCount ? data[key].lossCount : 0;
+				winCount = data[key].winCount ? data[key].winCount : 0;
+				totalGames =  lossCount + winCount;
+
+				cssClass = ++count % 2 ? 'cssWinnerClass': 'cssWinnerAlternate';
+
+				printRunner(key, `LossCount: ${lossCount} (${roundIt2D(lossCount * 100/totalGames)}%), WinCount: ${winCount}(${roundIt2D(winCount * 100/totalGames)}%)`, cssClass);
 			}
 		}
 
 		fillMainHTMLContent("", g_runnersStr);
+
+		document.querySelector("#statsCalender").addEventListener('change', fetchStats);
+	};
+
+	fetchStats = function() {
+		getStatsData(this.value);
+	};
+
+	getStatsData = function(date) {
+		notifyToServer('CLIENT_TO_SERVER_GIVE_RESULT_STATS_EVENT', JSON.stringify({ fromDate: date, msg:"give result stats report" }));
 	};
 
 	createPredictedWinnersTable = function(predictedWinnerList) {
@@ -195,7 +225,7 @@ window.addEventListener('load', function() {
 			case g_SYMBOL_CONSTANTS.RESULT_STATS:
 				g_activePageName = this.dataset.key;
 				g_pageNameDisplayArea.innerHTML = `<b>:: RESULT STATS ::</b>`;
-				notifyToServer('CLIENT_TO_SERVER_GIVE_RESULT_STATS_EVENT', JSON.stringify({ msg:"give result stats report" }));
+				getStatsData(new Date());
 				break;
 
 			case g_SYMBOL_CONSTANTS.LOG_MESSAGES:
@@ -253,6 +283,12 @@ window.addEventListener('load', function() {
 			}
 		}
 
+		// <input type="date"></input>
+		const now  = new Date();
+		const todayDate = now.toISOString().split('T')[0];
+		const threeMonthsBefore = new Date(now.setMonth(now.getMonth() - 3)).toISOString().split('T')[0]; // 3 months before today's date
+
+		g_runnersStr = `<h1><div class="cssWinnerAlternate"> <label for="statsCalender">Report From:  <input type="date" id="statsCalender" min="${threeMonthsBefore}" max="${todayDate}" value="${result.fromDate}"> </label> </div> </h1><br/>`;
 
 		console.log(groupedStats);
 		console.log(result);

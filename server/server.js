@@ -138,7 +138,8 @@
 			const obj = JSON.parse(data);
 			CONNECTIONS.print("must",obj); // client msg
 
-			const resultStats = await getNewWalletTransactions();
+			const resultStats = await getNewWalletTransactions(obj.fromDate);
+			resultStats.fromDate = obj.fromDate;
 
 			CONNECTIONS.notifyAllUser('SERVER_TO_CLIENT_RESULT_STATS_EVENT', JSON.stringify(resultStats)); // notify the client
 		});
@@ -565,13 +566,14 @@
 
 
 
-	getNewWalletTransactions = async function () {
-		let now = new Date();
+	getNewWalletTransactions = async function (fromDate) {
+		// let now = new Date();
 		// const yesterday = now.setDate(now.getDate() - 1);
 		// const yesterday = now.setDate(now.getDate() - 7);
 		// const yesterday = now.setDate(now.getDate() - 30);
-		const yesterday = now.setDate(now.getDate() - 15);
-		const yesterdayISOFormat = new Date(yesterday).toISOString();
+		// const yesterday = now.setDate(now.getDate() - 60);
+		// const yesterday = now.setDate(now.getDate() - 15);
+		// const yesterdayISOFormat = new Date(yesterday).toISOString();
 
 
 
@@ -580,7 +582,7 @@
 		options.qs = {
 			'offset': '0',
 			'per-page': '20',
-			'after': yesterdayISOFormat
+			'after': new Date(fromDate).toISOString() // yesterdayISOFormat
 		};
 
 		// Cookie data for maintaining the session
@@ -596,7 +598,7 @@
 
 		const transactionData = await requestPromise(options);
 		const jsonData = JSON.parse(transactionData);
-		// console.log(jsonFormat);
+		console.log(jsonData);
 		const moreTransactionData = await morePagesPromise(options, jsonData.total, publishSettledReport);
 		return moreTransactionData;
 
@@ -1402,7 +1404,7 @@
 
 			getMoneyStatusRecord();
 
-			getNewWalletTransactions();
+			// getNewWalletTransactions();
 
 			run();
 		}

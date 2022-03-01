@@ -53,7 +53,10 @@
 .queryColumn { background: #839192 ; }
 .colTwo      { background: #839192 ; }
 
-.cssWinnerClass { background: #145A32;}
+.cssWinnerClass     { background: #145A32;}
+.cssWinnerAlternate { background: #6C3483;}
+
+#statsCalender { font-size: 27px;}
 
 .sportsName { background: #212F3D;}
 .eventName  { background: #c70039 ;}
