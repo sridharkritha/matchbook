@@ -633,6 +633,233 @@
       },
       "event-start-time": "27/02/2022, 18:02:00",
       "bet-placed-time": "16:33:09  27-02-2022"
+    },
+    {
+      "status": "matched",
+      "sport-id": 241798357140019,
+      "sport-name": "Greyhound Racing",
+      "event-id": 2000903469830045,
+      "event-name": "19:58 Sheffield",
+      "market": "WIN",
+      "runner-name": "Sharpys Pluto",
+      "decimal-odds": 2.2,
+      "stake": 0.2,
+      "runner-id": 2000903470390045,
+      "winPercentage": 126.42,
+      "event-full-details": {
+        "id": 2000903469830045,
+        "start": "2022-03-01T19:58:00.000Z",
+        "status": "open",
+        "in-running-flag": false,
+        "realStartTime": 0,
+        "race-length": "660",
+        "metaData": {
+          "stakeValue": 0.2,
+          "minWinConfidencePercentage": 120,
+          "maxWinConfidencePercentage": 150,
+          "minProfitOdd": 0.8,
+          "todayTotalBetAmountLimit": 15,
+          "sumOfAlreadyPlacedBetAmount": 0.2,
+          "currentBalance": 10.98,
+          "eventInfoObj": {
+            "id": 2000903469830045,
+            "start": "2022-03-01T19:58:00.000Z",
+            "status": "open",
+            "in-running-flag": false,
+            "realStartTime": 0,
+            "race-length": "660"
+          }
+        },
+        "markets": {
+          "WIN": {
+            "market-id": 2000903470300045,
+            "allRunners": {
+              "Carrigmore Piper": {
+                "runnerId": 2000903470330045,
+                "withdrawn": false,
+                "back": 5.7,
+                "lay": 8.8,
+                "name": "Carrigmore Piper",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN"
+              },
+              "Angels Spirit": {
+                "runnerId": 2000903470360045,
+                "withdrawn": false,
+                "back": 10,
+                "lay": 24,
+                "name": "Angels Spirit",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN"
+              },
+              "Sharpys Pluto": {
+                "runnerId": 2000903470390045,
+                "withdrawn": false,
+                "back": 2.12,
+                "lay": 2.42,
+                "name": "Sharpys Pluto",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN",
+                "numberOfRunners": 6,
+                "winPercentage": 126.42,
+                "startTime": "2022-03-01T19:58:00.000Z",
+                "raceId": 2000903469830045,
+                "raceName": "19:58 Sheffield",
+                "sportName": "Greyhound Racing",
+                "profitOdd": 1.12,
+                "in-running-flag": false,
+                "status": "open",
+                "realStartTime": 0
+              },
+              "Glory Gal": {
+                "runnerId": 2000903470430045,
+                "withdrawn": false,
+                "back": 4.8,
+                "lay": 5.6,
+                "name": "Glory Gal",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN"
+              },
+              "Easy Diablo": {
+                "runnerId": 2000903470460045,
+                "withdrawn": false,
+                "back": 5.6,
+                "lay": 9.2,
+                "name": "Easy Diablo",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN"
+              },
+              "Shady Beau": {
+                "runnerId": 2000903470490045,
+                "withdrawn": false,
+                "back": 10.5,
+                "lay": 21,
+                "name": "Shady Beau",
+                "event-name": "19:58 Sheffield",
+                "market-name": "WIN"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 2000903470390045,
+              "withdrawn": false,
+              "back": 2.12,
+              "lay": 2.42,
+              "name": "Sharpys Pluto",
+              "event-name": "19:58 Sheffield",
+              "market-name": "WIN",
+              "numberOfRunners": 6,
+              "winPercentage": 126.42,
+              "startTime": "2022-03-01T19:58:00.000Z",
+              "raceId": 2000903469830045,
+              "raceName": "19:58 Sheffield",
+              "sportName": "Greyhound Racing",
+              "profitOdd": 1.12,
+              "in-running-flag": false,
+              "status": "open",
+              "realStartTime": 0
+            }
+          },
+          "Place (2)": {
+            "market-id": 2000903470530045,
+            "allRunners": {
+              "Carrigmore Piper": {
+                "runnerId": 2000903470550045,
+                "withdrawn": false,
+                "back": 2.56,
+                "lay": 3.45,
+                "name": "Carrigmore Piper",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)"
+              },
+              "Angels Spirit": {
+                "runnerId": 2000903470590045,
+                "withdrawn": false,
+                "back": 4,
+                "lay": 7.4,
+                "name": "Angels Spirit",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)"
+              },
+              "Sharpys Pluto": {
+                "runnerId": 2000903470620045,
+                "withdrawn": false,
+                "back": 1.65,
+                "lay": 1.79,
+                "name": "Sharpys Pluto",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)",
+                "numberOfRunners": 6,
+                "winPercentage": 52.73,
+                "startTime": "2022-03-01T19:58:00.000Z",
+                "raceId": 2000903469830045,
+                "raceName": "19:58 Sheffield"
+              },
+              "Glory Gal": {
+                "runnerId": 2000903470660045,
+                "withdrawn": false,
+                "back": 2.52,
+                "lay": 3.1,
+                "name": "Glory Gal",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)"
+              },
+              "Easy Diablo": {
+                "runnerId": 2000903470690045,
+                "withdrawn": false,
+                "back": 2.56,
+                "lay": 3.6,
+                "name": "Easy Diablo",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)"
+              },
+              "Shady Beau": {
+                "runnerId": 2000903470720045,
+                "withdrawn": false,
+                "back": 3.75,
+                "lay": 6.2,
+                "name": "Shady Beau",
+                "event-name": "19:58 Sheffield",
+                "market-name": "Place (2)"
+              }
+            },
+            "number-of-winners": 2,
+            "luckyWinner": {
+              "runnerId": 2000903470620045,
+              "withdrawn": false,
+              "back": 1.65,
+              "lay": 1.79,
+              "name": "Sharpys Pluto",
+              "event-name": "19:58 Sheffield",
+              "market-name": "Place (2)",
+              "numberOfRunners": 6,
+              "winPercentage": 52.73,
+              "startTime": "2022-03-01T19:58:00.000Z",
+              "raceId": 2000903469830045,
+              "raceName": "19:58 Sheffield"
+            }
+          }
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 120,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0.2,
+        "currentBalance": 10.98,
+        "eventInfoObj": {
+          "id": 2000903469830045,
+          "start": "2022-03-01T19:58:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0,
+          "race-length": "660"
+        }
+      },
+      "event-start-time": "01/03/2022, 19:58:00",
+      "bet-placed-time": "19:48:10  01-03-2022"
     }
   ],
   "Soccer": [
@@ -4185,6 +4412,918 @@
       },
       "event-start-time": "27/02/2022, 16:04:00",
       "bet-placed-time": "16:34:03  27-02-2022"
+    },
+    {
+      "status": "open",
+      "sport-id": 15,
+      "sport-name": "Soccer",
+      "event-id": 1988026065300056,
+      "event-name": "Crystal Palace vs Stoke City",
+      "market": "Match Result and Both Teams To Score",
+      "runner-name": "Crystal Palace and No",
+      "decimal-odds": 2.3,
+      "stake": 0.2,
+      "runner-id": 1988026074050056,
+      "winPercentage": 138.74,
+      "event-full-details": {
+        "id": 1988026065300056,
+        "start": "2022-03-01T19:30:00.000Z",
+        "status": "open",
+        "in-running-flag": true,
+        "realStartTime": "2022-03-01T19:47:58.831Z",
+        "metaData": {
+          "stakeValue": 0.2,
+          "minWinConfidencePercentage": 120,
+          "maxWinConfidencePercentage": 150,
+          "minProfitOdd": 0.8,
+          "todayTotalBetAmountLimit": 15,
+          "sumOfAlreadyPlacedBetAmount": 0,
+          "currentBalance": 11.18,
+          "eventInfoObj": {
+            "id": 1988026065300056,
+            "start": "2022-03-01T19:30:00.000Z",
+            "status": "open",
+            "in-running-flag": true,
+            "realStartTime": "2022-03-01T19:47:58.831Z"
+          }
+        },
+        "markets": {
+          "Match Odds": {
+            "market-id": 1988026069620056,
+            "allRunners": {
+              "Crystal Palace": {
+                "runnerId": 1988026072330056,
+                "withdrawn": false,
+                "back": 1.69,
+                "lay": 1.72,
+                "name": "Crystal Palace",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Odds",
+                "numberOfRunners": 3,
+                "winPercentage": 110.06,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "Stoke City": {
+                "runnerId": 1988026072380056,
+                "withdrawn": false,
+                "back": 7,
+                "lay": 7.6,
+                "name": "Stoke City",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Odds"
+              },
+              "DRAW (Cry/Sto)": {
+                "runnerId": 1988026072430056,
+                "withdrawn": false,
+                "back": 3.55,
+                "lay": 3.7,
+                "name": "DRAW (Cry/Sto)",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Odds"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026072330056,
+              "withdrawn": false,
+              "back": 1.69,
+              "lay": 1.72,
+              "name": "Crystal Palace",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Match Odds",
+              "numberOfRunners": 3,
+              "winPercentage": 110.06,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Total": {
+            "market-id": 1988026069970056,
+            "allRunners": {
+              "OVER 0.5": {
+                "runnerId": 1988026073100056,
+                "withdrawn": false,
+                "back": 1.11,
+                "lay": 1.16,
+                "name": "OVER 0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Total",
+                "numberOfRunners": 2,
+                "winPercentage": 476.58,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "UNDER 0.5": {
+                "runnerId": 1988026073130056,
+                "withdrawn": false,
+                "back": 6.4,
+                "lay": 10.5,
+                "name": "UNDER 0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Total"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026073100056,
+              "withdrawn": false,
+              "back": 1.11,
+              "lay": 1.16,
+              "name": "OVER 0.5",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Total",
+              "numberOfRunners": 2,
+              "winPercentage": 476.58,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "1st Half Total": {
+            "market-id": 1988026070470056,
+            "allRunners": {
+              "OVER 0.5": {
+                "runnerId": 1988026074570156,
+                "withdrawn": false,
+                "back": 1.89,
+                "lay": 2.14,
+                "name": "OVER 0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "1st Half Total"
+              },
+              "UNDER 0.5": {
+                "runnerId": 1988026074600156,
+                "withdrawn": false,
+                "back": 1.87,
+                "lay": 2.12,
+                "name": "UNDER 0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "1st Half Total",
+                "numberOfRunners": 2,
+                "winPercentage": 1.07,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026074600156,
+              "withdrawn": false,
+              "back": 1.87,
+              "lay": 2.12,
+              "name": "UNDER 0.5",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "1st Half Total",
+              "numberOfRunners": 2,
+              "winPercentage": 1.07,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Handicap": {
+            "market-id": 1988026069660056,
+            "allRunners": {
+              "Crystal Palace -0.5": {
+                "runnerId": 1988026072460156,
+                "withdrawn": false,
+                "back": 1.59,
+                "lay": 1.79,
+                "name": "Crystal Palace -0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Handicap",
+                "numberOfRunners": 2,
+                "winPercentage": 42.14,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "Stoke City +0.5": {
+                "runnerId": 1988026072500056,
+                "withdrawn": false,
+                "back": 2.26,
+                "lay": 2.7,
+                "name": "Stoke City +0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Handicap"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026072460156,
+              "withdrawn": false,
+              "back": 1.59,
+              "lay": 1.79,
+              "name": "Crystal Palace -0.5",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Handicap",
+              "numberOfRunners": 2,
+              "winPercentage": 42.14,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "1st Half Handicap": {
+            "market-id": 1988026070180056,
+            "allRunners": {
+              "Crystal Palace -0.5": {
+                "runnerId": 1988026073810056,
+                "withdrawn": false,
+                "back": 2.72,
+                "lay": 3.75,
+                "name": "Crystal Palace -0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "1st Half Handicap"
+              },
+              "Stoke City +0.5": {
+                "runnerId": 1988026073840056,
+                "withdrawn": false,
+                "back": 1.36,
+                "lay": 1.59,
+                "name": "Stoke City +0.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "1st Half Handicap",
+                "numberOfRunners": 2,
+                "winPercentage": 100,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026073840056,
+              "withdrawn": false,
+              "back": 1.36,
+              "lay": 1.59,
+              "name": "Stoke City +0.5",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "1st Half Handicap",
+              "numberOfRunners": 2,
+              "winPercentage": 100,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Both Teams To Score": {
+            "market-id": 1988026070570056,
+            "allRunners": {
+              "YES(CRYSTAL PALACE/STOKE CITY)": {
+                "runnerId": 1988026074780056,
+                "withdrawn": false,
+                "back": 2.62,
+                "lay": 2.94,
+                "name": "YES(CRYSTAL PALACE/STOKE CITY)",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Both Teams To Score"
+              },
+              "NO(CRYSTAL PALACE/STOKE CITY)": {
+                "runnerId": 1988026074810056,
+                "withdrawn": false,
+                "back": 1.51,
+                "lay": 1.62,
+                "name": "NO(CRYSTAL PALACE/STOKE CITY)",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Both Teams To Score",
+                "numberOfRunners": 2,
+                "winPercentage": 73.51,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026074810056,
+              "withdrawn": false,
+              "back": 1.51,
+              "lay": 1.62,
+              "name": "NO(CRYSTAL PALACE/STOKE CITY)",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Both Teams To Score",
+              "numberOfRunners": 2,
+              "winPercentage": 73.51,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Correct Score": {
+            "market-id": 1988026070710056,
+            "allRunners": {
+              "0-0": {
+                "runnerId": 1988026075430156,
+                "withdrawn": false,
+                "back": 7,
+                "lay": 9,
+                "name": "0-0",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "0-1": {
+                "runnerId": 1988026075460156,
+                "withdrawn": false,
+                "back": 16,
+                "lay": 17,
+                "name": "0-1",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "0-2": {
+                "runnerId": 1988026075490156,
+                "withdrawn": false,
+                "back": 38,
+                "lay": 70,
+                "name": "0-2",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "0-3": {
+                "runnerId": 1988026075520056,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 390,
+                "name": "0-3",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "1-0": {
+                "runnerId": 1988026075550056,
+                "withdrawn": false,
+                "back": 5,
+                "lay": 6,
+                "name": "1-0",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score",
+                "numberOfRunners": 19,
+                "winPercentage": 40,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "1-1": {
+                "runnerId": 1988026075580056,
+                "withdrawn": false,
+                "back": 7.6,
+                "lay": 8.8,
+                "name": "1-1",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "1-2": {
+                "runnerId": 1988026075610056,
+                "withdrawn": false,
+                "back": 25,
+                "lay": 38,
+                "name": "1-2",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "1-3": {
+                "runnerId": 1988026075630156,
+                "withdrawn": false,
+                "back": 75,
+                "lay": 250,
+                "name": "1-3",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "2-0": {
+                "runnerId": 1988026075660156,
+                "withdrawn": false,
+                "back": 7.2,
+                "lay": 8.4,
+                "name": "2-0",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "2-1": {
+                "runnerId": 1988026075690056,
+                "withdrawn": false,
+                "back": 9.8,
+                "lay": 11.5,
+                "name": "2-1",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "2-2": {
+                "runnerId": 1988026075720056,
+                "withdrawn": false,
+                "back": 28,
+                "lay": 44,
+                "name": "2-2",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "2-3": {
+                "runnerId": 1988026075750056,
+                "withdrawn": false,
+                "back": 85,
+                "lay": 300,
+                "name": "2-3",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "3-0": {
+                "runnerId": 1988026075780056,
+                "withdrawn": false,
+                "back": 14,
+                "lay": 19.5,
+                "name": "3-0",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "3-1": {
+                "runnerId": 1988026075820056,
+                "withdrawn": false,
+                "back": 21,
+                "lay": 28,
+                "name": "3-1",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "3-2": {
+                "runnerId": 1988026075850056,
+                "withdrawn": false,
+                "back": 48,
+                "lay": 90,
+                "name": "3-2",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "3-3": {
+                "runnerId": 1988026075880156,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 520,
+                "name": "3-3",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "ANY OTHER HOME WIN": {
+                "runnerId": 1988026075920056,
+                "withdrawn": false,
+                "back": 16.5,
+                "lay": 21,
+                "name": "ANY OTHER HOME WIN",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "ANY OTHER AWAY WIN": {
+                "runnerId": 1988026075950056,
+                "withdrawn": false,
+                "back": 110,
+                "lay": 600,
+                "name": "ANY OTHER AWAY WIN",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              },
+              "ANY OTHER DRAW": {
+                "runnerId": 1988026075980056,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 0,
+                "name": "ANY OTHER DRAW",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Correct Score"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026075550056,
+              "withdrawn": false,
+              "back": 5,
+              "lay": 6,
+              "name": "1-0",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Correct Score",
+              "numberOfRunners": 19,
+              "winPercentage": 40,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Half Time/Full Time": {
+            "market-id": 1988026070080056,
+            "allRunners": {
+              "CRYSTAL PALACE/CRYSTAL PALACE": {
+                "runnerId": 1988026073290056,
+                "withdrawn": false,
+                "back": 3.25,
+                "lay": 4.6,
+                "name": "CRYSTAL PALACE/CRYSTAL PALACE",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "CRYSTAL PALACE/DRAW": {
+                "runnerId": 1988026073320156,
+                "withdrawn": false,
+                "back": 18.5,
+                "lay": 34,
+                "name": "CRYSTAL PALACE/DRAW",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "CRYSTAL PALACE/STOKE CITY": {
+                "runnerId": 1988026073350256,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 200,
+                "name": "CRYSTAL PALACE/STOKE CITY",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "DRAW/CRYSTAL PALACE": {
+                "runnerId": 1988026073390156,
+                "withdrawn": false,
+                "back": 3,
+                "lay": 3.75,
+                "name": "DRAW/CRYSTAL PALACE",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time",
+                "numberOfRunners": 9,
+                "winPercentage": 8.33,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "DRAW/DRAW": {
+                "runnerId": 1988026073430056,
+                "withdrawn": false,
+                "back": 4.2,
+                "lay": 5.2,
+                "name": "DRAW/DRAW",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "DRAW/STOKE CITY": {
+                "runnerId": 1988026073460056,
+                "withdrawn": false,
+                "back": 13.5,
+                "lay": 19,
+                "name": "DRAW/STOKE CITY",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "STOKE CITY/CRYSTAL PALACE": {
+                "runnerId": 1988026073490156,
+                "withdrawn": false,
+                "back": 21,
+                "lay": 48,
+                "name": "STOKE CITY/CRYSTAL PALACE",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "STOKE CITY/DRAW": {
+                "runnerId": 1988026073530056,
+                "withdrawn": false,
+                "back": 14.5,
+                "lay": 34,
+                "name": "STOKE CITY/DRAW",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              },
+              "STOKE CITY/STOKE CITY": {
+                "runnerId": 1988026073570056,
+                "withdrawn": false,
+                "back": 11,
+                "lay": 27,
+                "name": "STOKE CITY/STOKE CITY",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Half Time/Full Time"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026073390156,
+              "withdrawn": false,
+              "back": 3,
+              "lay": 3.75,
+              "name": "DRAW/CRYSTAL PALACE",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Half Time/Full Time",
+              "numberOfRunners": 9,
+              "winPercentage": 8.33,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "To Win Tie": {
+            "market-id": 2000333352020056,
+            "allRunners": {
+              "Crystal Palace": {
+                "runnerId": 2000333352370056,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 0,
+                "name": "Crystal Palace",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "To Win Tie"
+              },
+              "Stoke City": {
+                "runnerId": 2000333352410056,
+                "withdrawn": false,
+                "back": 0,
+                "lay": 0,
+                "name": "Stoke City",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "To Win Tie"
+              }
+            },
+            "number-of-winners": 1
+          },
+          "Match Result and Both Teams To Score": {
+            "market-id": 1988026070290056,
+            "allRunners": {
+              "Crystal Palace and Yes": {
+                "runnerId": 1988026074010056,
+                "withdrawn": false,
+                "back": 5.3,
+                "lay": 6.6,
+                "name": "Crystal Palace and Yes",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score"
+              },
+              "Crystal Palace and No": {
+                "runnerId": 1988026074050056,
+                "withdrawn": false,
+                "back": 2.22,
+                "lay": 2.5,
+                "name": "Crystal Palace and No",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score",
+                "numberOfRunners": 6,
+                "winPercentage": 138.74,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City",
+                "sportName": "Soccer",
+                "profitOdd": 1.2200000000000002,
+                "in-running-flag": true,
+                "status": "open",
+                "realStartTime": "2022-03-01T19:47:58.831Z"
+              },
+              "Draw and Yes": {
+                "runnerId": 1988026074080156,
+                "withdrawn": false,
+                "back": 5.9,
+                "lay": 7.4,
+                "name": "Draw and Yes",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score"
+              },
+              "Draw and No": {
+                "runnerId": 1988026074120056,
+                "withdrawn": false,
+                "back": 6.6,
+                "lay": 9,
+                "name": "Draw and No",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score"
+              },
+              "Stoke City and Yes": {
+                "runnerId": 1988026074160056,
+                "withdrawn": false,
+                "back": 17,
+                "lay": 32,
+                "name": "Stoke City and Yes",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score"
+              },
+              "Stoke City and No": {
+                "runnerId": 1988026074210056,
+                "withdrawn": false,
+                "back": 9.6,
+                "lay": 13.5,
+                "name": "Stoke City and No",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Both Teams To Score"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026074050056,
+              "withdrawn": false,
+              "back": 2.22,
+              "lay": 2.5,
+              "name": "Crystal Palace and No",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Match Result and Both Teams To Score",
+              "numberOfRunners": 6,
+              "winPercentage": 138.74,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City",
+              "sportName": "Soccer",
+              "profitOdd": 1.2200000000000002,
+              "in-running-flag": true,
+              "status": "open",
+              "realStartTime": "2022-03-01T19:47:58.831Z"
+            }
+          },
+          "Match Result and Total Goals": {
+            "market-id": 1988026070660056,
+            "allRunners": {
+              "Crystal Palace and Over 3.5": {
+                "runnerId": 1988026075150056,
+                "withdrawn": false,
+                "back": 8.2,
+                "lay": 10.5,
+                "name": "Crystal Palace and Over 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals"
+              },
+              "Crystal Palace and Under 3.5": {
+                "runnerId": 1988026075180156,
+                "withdrawn": false,
+                "back": 1.94,
+                "lay": 2.18,
+                "name": "Crystal Palace and Under 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals",
+                "numberOfRunners": 6,
+                "winPercentage": 98.45,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "Draw and Over 3.5": {
+                "runnerId": 1988026075220056,
+                "withdrawn": false,
+                "back": 16.5,
+                "lay": 42,
+                "name": "Draw and Over 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals"
+              },
+              "Draw and Under 3.5": {
+                "runnerId": 1988026075250056,
+                "withdrawn": false,
+                "back": 3.85,
+                "lay": 4.3,
+                "name": "Draw and Under 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals"
+              },
+              "Stoke City and Over 3.5": {
+                "runnerId": 1988026075280156,
+                "withdrawn": false,
+                "back": 30,
+                "lay": 110,
+                "name": "Stoke City and Over 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals"
+              },
+              "Stoke City and Under 3.5": {
+                "runnerId": 1988026075320056,
+                "withdrawn": false,
+                "back": 7.2,
+                "lay": 9.4,
+                "name": "Stoke City and Under 3.5",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Match Result and Total Goals"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026075180156,
+              "withdrawn": false,
+              "back": 1.94,
+              "lay": 2.18,
+              "name": "Crystal Palace and Under 3.5",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Match Result and Total Goals",
+              "numberOfRunners": 6,
+              "winPercentage": 98.45,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Double Chance": {
+            "market-id": 1988026070740056,
+            "allRunners": {
+              "Crystal Palace or Draw": {
+                "runnerId": 1988026076010156,
+                "withdrawn": false,
+                "back": 1.13,
+                "lay": 1.18,
+                "name": "Crystal Palace or Draw",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Double Chance",
+                "numberOfRunners": 3,
+                "winPercentage": 19.47,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "Crystal Palace or Stoke City": {
+                "runnerId": 1988026076050156,
+                "withdrawn": false,
+                "back": 1.35,
+                "lay": 1.41,
+                "name": "Crystal Palace or Stoke City",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Double Chance"
+              },
+              "Draw or Stoke City": {
+                "runnerId": 1988026076100056,
+                "withdrawn": false,
+                "back": 2.26,
+                "lay": 2.64,
+                "name": "Draw or Stoke City",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Double Chance"
+              }
+            },
+            "number-of-winners": 2,
+            "luckyWinner": {
+              "runnerId": 1988026076010156,
+              "withdrawn": false,
+              "back": 1.13,
+              "lay": 1.18,
+              "name": "Crystal Palace or Draw",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Double Chance",
+              "numberOfRunners": 3,
+              "winPercentage": 19.47,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          },
+          "Draw No Bet": {
+            "market-id": 1988026070770056,
+            "allRunners": {
+              "Crystal Palace": {
+                "runnerId": 1988026076140156,
+                "withdrawn": false,
+                "back": 1.08,
+                "lay": 1.27,
+                "name": "Crystal Palace",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Draw No Bet",
+                "numberOfRunners": 2,
+                "winPercentage": 335.19,
+                "startTime": "2022-03-01T19:30:00.000Z",
+                "raceId": 1988026065300056,
+                "raceName": "Crystal Palace vs Stoke City"
+              },
+              "Stoke City": {
+                "runnerId": 1988026076180056,
+                "withdrawn": false,
+                "back": 4.7,
+                "lay": 7,
+                "name": "Stoke City",
+                "event-name": "Crystal Palace vs Stoke City",
+                "market-name": "Draw No Bet"
+              }
+            },
+            "number-of-winners": 1,
+            "luckyWinner": {
+              "runnerId": 1988026076140156,
+              "withdrawn": false,
+              "back": 1.08,
+              "lay": 1.27,
+              "name": "Crystal Palace",
+              "event-name": "Crystal Palace vs Stoke City",
+              "market-name": "Draw No Bet",
+              "numberOfRunners": 2,
+              "winPercentage": 335.19,
+              "startTime": "2022-03-01T19:30:00.000Z",
+              "raceId": 1988026065300056,
+              "raceName": "Crystal Palace vs Stoke City"
+            }
+          }
+        }
+      },
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 120,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 11.18,
+        "eventInfoObj": {
+          "id": 1988026065300056,
+          "start": "2022-03-01T19:30:00.000Z",
+          "status": "open",
+          "in-running-flag": true,
+          "realStartTime": "2022-03-01T19:47:58.831Z"
+        }
+      },
+      "event-start-time": "01/03/2022, 19:30:00",
+      "bet-placed-time": "19:48:02  01-03-2022"
     }
   ]
 }

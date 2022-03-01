@@ -56,8 +56,8 @@
 	// ['Horse Racing'];  ['ALL']; ['Cricket']; ['Horse Racing','Greyhound Racing', 'Cricket'];
 	let g_sportsInterested = ['ALL'];
 	// let g_sportsInterested = [
-	// 	'Horse Racing', //.
-	// 	// 'Soccer', //.
+	// 	// 'Horse Racing', //.
+	// 	'Soccer', //.
 	// 	// 'Greyhound Racing', //.
 
 	// 	// 'American Football',//.
@@ -168,8 +168,15 @@
 		return false;
 	};
 
-	isWinningHorse = (sportName, winPercentage, profitOdd, runnersCount) => {
+	isWinningHorse = (sportName, marketName, winPercentage, profitOdd, runnersCount) => {
 		const wc = WC.getSportsWinningConstants(sportName, g_isLockedForBetting);
+
+		// Ignore market
+		if(sportName === "Soccer" && (marketName === "Match Result and Total Goals" || marketName === "Correct Score"))
+		{
+			return false;
+		}
+
 		// max
 		if((winPercentage > wc.g_maxWinConfidencePercentage) && (profitOdd > wc.g_minProfitOdd))
 		{
@@ -820,6 +827,7 @@
 											luckyRunner[0][1].raceId = raceId;
 											luckyRunner[0][1].raceName = raceName;
 											let profitOdd = luckyRunner[0][1].back - 1;
+											let marketName = luckyRunner[0][1]['market-name'];
 										
 											// jsonObj[prop][race].luckyWinner = luckyRunner[0][1]; // first element from an array
 											jsonObj[prop][race]["markets"][market].luckyWinner = luckyRunner[0][1]; // first element from an array
@@ -830,7 +838,7 @@
 											console.log(`${UTIL.formatString(`Sports: (${sportName})`, 28)} #### ${UTIL.formatString(`Event: (${raceName})`, 60)}  #### ${UTIL.formatString(`Win(%): ${UTIL.roundIt2D(winPercentage)}`, 18)} #### Odd(${luckyRunner[0][1].name} / ${luckyRunner[1][1].name}): ${luckyRunner[0][0]} / ${luckyRunner[1][0]}`);
 				
 											// Build the predictedWinner list
-											if(isWinningHorse(sportName, winPercentage, profitOdd, luckyRunner.length))
+											if(isWinningHorse(sportName, marketName, winPercentage, profitOdd, luckyRunner.length))
 											{
 												let obj = luckyRunner[0][1];
 												obj.sportName = sportName;
