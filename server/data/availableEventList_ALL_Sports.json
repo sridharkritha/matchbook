@@ -1,624 +1,116 @@
 {
-  "id": 24735152712200,
+  "id": 1532612887820003,
   "events": {
-    "11:05 Greyville": {
-      "id": 2001636638460045,
-      "start": "2022-03-02T11:05:00.000Z",
+    "Wednesday Soccer Treble (90 Mins)": {
+      "id": 2002533077490045,
+      "start": "2022-03-02T19:15:00.000Z",
       "status": "open",
       "in-running-flag": false,
       "realStartTime": 0,
-      "race-length": "1m 0f 209y"
-    },
-    "11:40 Greyville": {
-      "id": 2001636639830045,
-      "start": "2022-03-02T11:40:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 1f 208y"
-    },
-    "12:20 Greyville": {
-      "id": 2001636641630045,
-      "start": "2022-03-02T12:20:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 4f 214y"
-    },
-    "12:30 Lingfield": {
-      "id": 2000904328640045,
-      "start": "2022-03-02T12:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 2f 0y",
       "metaData": {
         "stakeValue": 0.2,
-        "minWinConfidencePercentage": 120,
+        "minWinConfidencePercentage": 80,
         "maxWinConfidencePercentage": 150,
         "minProfitOdd": 0.8,
         "todayTotalBetAmountLimit": 15,
         "sumOfAlreadyPlacedBetAmount": 0,
         "currentBalance": 10.78,
         "eventInfoObj": {
-          "id": 2000904328640045,
-          "start": "2022-03-02T12:30:00.000Z",
+          "id": 2002533077490045,
+          "start": "2022-03-02T19:15:00.000Z",
           "status": "open",
           "in-running-flag": false,
-          "realStartTime": 0,
-          "race-length": "1m 2f 0y"
+          "realStartTime": 0
         }
       },
       "markets": {
-        "WIN": {
-          "market-id": 2000904329580045,
+        "Winner": {
+          "market-id": 2002533077780045,
           "allRunners": {
-            "5 Marie Paradis": {
-              "runnerId": 2000904329740045,
+            "Liverpool, Chelsea & Southampton All To Win": {
+              "runnerId": 2002533077800045,
               "withdrawn": false,
-              "back": 5.2,
-              "lay": 5.6
-            },
-            "4 No Such Luck": {
-              "runnerId": 2000904329710045,
+              "back": 4.3,
+              "lay": 4.4
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    },
+    "Wednesday Soccer Treble 2 (90 Mins)": {
+      "id": 2002533077920045,
+      "start": "2022-03-02T19:15:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 10.78,
+        "eventInfoObj": {
+          "id": 2002533077920045,
+          "start": "2022-03-02T19:15:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Winner": {
+          "market-id": 2002533078090045,
+          "allRunners": {
+            "Chelsea, Liverpool & West Ham All To Win": {
+              "runnerId": 2002533078110045,
               "withdrawn": false,
               "back": 5.9,
-              "lay": 6.2
-            },
-            "9 Sherpa Trail": {
-              "runnerId": 2000904329860045,
+              "lay": 6
+            }
+          },
+          "number-of-winners": 1
+        }
+      }
+    },
+    "Liverpool vs Norwich Special": {
+      "id": 2002161439150045,
+      "start": "2022-03-02T20:15:00.000Z",
+      "status": "open",
+      "in-running-flag": false,
+      "realStartTime": 0,
+      "metaData": {
+        "stakeValue": 0.2,
+        "minWinConfidencePercentage": 80,
+        "maxWinConfidencePercentage": 150,
+        "minProfitOdd": 0.8,
+        "todayTotalBetAmountLimit": 15,
+        "sumOfAlreadyPlacedBetAmount": 0,
+        "currentBalance": 10.78,
+        "eventInfoObj": {
+          "id": 2002161439150045,
+          "start": "2022-03-02T20:15:00.000Z",
+          "status": "open",
+          "in-running-flag": false,
+          "realStartTime": 0
+        }
+      },
+      "markets": {
+        "Winner": {
+          "market-id": 2002161439430045,
+          "allRunners": {
+            "Diogo Jota to have over 0.5 Shots On Target In Each Half (90min)": {
+              "runnerId": 2002161439460045,
               "withdrawn": false,
-              "back": 8.8,
-              "lay": 0
-            },
-            "10 Pedestal": {
-              "runnerId": 2000904329890045,
-              "withdrawn": false,
-              "back": 9.8,
-              "lay": 10.5
-            },
-            "11 Recuerdame": {
-              "runnerId": 2000904329920045,
-              "withdrawn": false,
-              "back": 10.5,
-              "lay": 12
-            },
-            "7 Doonbeg Farmer": {
-              "runnerId": 2000904329800045,
-              "withdrawn": false,
-              "back": 8.4,
-              "lay": 19
-            },
-            "3 Lake Sand": {
-              "runnerId": 2000904329670145,
-              "withdrawn": false,
-              "back": 8.8,
-              "lay": 0
-            },
-            "1 Parikarma": {
-              "runnerId": 2000904329610045,
-              "withdrawn": false,
-              "back": 14,
-              "lay": 16
-            },
-            "2 Violet's Lads": {
-              "runnerId": 2000904329640045,
-              "withdrawn": false,
-              "back": 16,
-              "lay": 21
-            },
-            "12 Dylan's Ruby": {
-              "runnerId": 2000904329950045,
-              "withdrawn": false,
-              "back": 60,
-              "lay": 0
-            },
-            "8 Tokyo Chic": {
-              "runnerId": 2000904329830045,
-              "withdrawn": false,
-              "back": 11,
-              "lay": 0
-            },
-            "6 Cafe Sydney": {
-              "runnerId": 2000904329770045,
-              "withdrawn": true,
-              "back": 0,
+              "back": 2.8,
               "lay": 0
             }
           },
           "number-of-winners": 1
-        },
-        "Place (3)": {
-          "market-id": 2000904330380045,
-          "allRunners": {
-            "5 Marie Paradis": {
-              "runnerId": 2000904330530045,
-              "withdrawn": false,
-              "back": 2.08,
-              "lay": 2.12
-            },
-            "4 No Such Luck": {
-              "runnerId": 2000904330500045,
-              "withdrawn": false,
-              "back": 2.34,
-              "lay": 4.2
-            },
-            "9 Sherpa Trail": {
-              "runnerId": 2000904330660145,
-              "withdrawn": false,
-              "back": 2.86,
-              "lay": 3.05
-            },
-            "3 Lake Sand": {
-              "runnerId": 2000904330470045,
-              "withdrawn": false,
-              "back": 3,
-              "lay": 3.45
-            },
-            "7 Doonbeg Farmer": {
-              "runnerId": 2000904330600045,
-              "withdrawn": false,
-              "back": 3.15,
-              "lay": 3.4
-            },
-            "1 Parikarma": {
-              "runnerId": 2000904330410045,
-              "withdrawn": false,
-              "back": 3.95,
-              "lay": 4.5
-            },
-            "2 Violet's Lads": {
-              "runnerId": 2000904330440045,
-              "withdrawn": false,
-              "back": 4.5,
-              "lay": 14
-            },
-            "12 Dylan's Ruby": {
-              "runnerId": 2000904330750145,
-              "withdrawn": false,
-              "back": 27,
-              "lay": 65
-            },
-            "8 Tokyo Chic": {
-              "runnerId": 2000904330630045,
-              "withdrawn": false,
-              "back": 10,
-              "lay": 0
-            },
-            "10 Pedestal": {
-              "runnerId": 2000904330690145,
-              "withdrawn": false,
-              "back": 3.35,
-              "lay": 3.6
-            },
-            "11 Recuerdame": {
-              "runnerId": 2000904330720145,
-              "withdrawn": false,
-              "back": 3.2,
-              "lay": 3.75
-            },
-            "6 Cafe Sydney": {
-              "runnerId": 2000904330560145,
-              "withdrawn": true,
-              "back": 0,
-              "lay": 0
-            }
-          },
-          "number-of-winners": 3
-        },
-        "Place (2)": {
-          "market-id": 2000904329980045,
-          "allRunners": {
-            "9 Sherpa Trail": {
-              "runnerId": 2000904330250145,
-              "withdrawn": false,
-              "back": 4.1,
-              "lay": 4.9
-            },
-            "1 Parikarma": {
-              "runnerId": 2000904330010045,
-              "withdrawn": false,
-              "back": 6.4,
-              "lay": 7.2
-            },
-            "2 Violet's Lads": {
-              "runnerId": 2000904330040045,
-              "withdrawn": false,
-              "back": 5.2,
-              "lay": 11.5
-            },
-            "3 Lake Sand": {
-              "runnerId": 2000904330070045,
-              "withdrawn": false,
-              "back": 4.7,
-              "lay": 5.8
-            },
-            "4 No Such Luck": {
-              "runnerId": 2000904330100045,
-              "withdrawn": false,
-              "back": 3.05,
-              "lay": 3.9
-            },
-            "5 Marie Paradis": {
-              "runnerId": 2000904330130045,
-              "withdrawn": false,
-              "back": 2.36,
-              "lay": 3.35
-            },
-            "7 Doonbeg Farmer": {
-              "runnerId": 2000904330190045,
-              "withdrawn": false,
-              "back": 3.3,
-              "lay": 5.3
-            },
-            "8 Tokyo Chic": {
-              "runnerId": 2000904330220045,
-              "withdrawn": false,
-              "back": 17,
-              "lay": 32
-            },
-            "10 Pedestal": {
-              "runnerId": 2000904330280145,
-              "withdrawn": false,
-              "back": 4.5,
-              "lay": 6.6
-            },
-            "11 Recuerdame": {
-              "runnerId": 2000904330320045,
-              "withdrawn": false,
-              "back": 3.95,
-              "lay": 6.4
-            },
-            "12 Dylan's Ruby": {
-              "runnerId": 2000904330340145,
-              "withdrawn": false,
-              "back": 48,
-              "lay": 0
-            },
-            "6 Cafe Sydney": {
-              "runnerId": 2000904330160045,
-              "withdrawn": true,
-              "back": 0,
-              "lay": 0
-            }
-          },
-          "number-of-winners": 2
-        },
-        "Place (4)": {
-          "market-id": 2000904330790045,
-          "allRunners": {
-            "9 Sherpa Trail": {
-              "runnerId": 2000904331060145,
-              "withdrawn": false,
-              "back": 2.2,
-              "lay": 2.6
-            },
-            "7 Doonbeg Farmer": {
-              "runnerId": 2000904331000145,
-              "withdrawn": false,
-              "back": 2.38,
-              "lay": 2.7
-            },
-            "1 Parikarma": {
-              "runnerId": 2000904330820045,
-              "withdrawn": false,
-              "back": 2.74,
-              "lay": 3
-            },
-            "2 Violet's Lads": {
-              "runnerId": 2000904330850045,
-              "withdrawn": false,
-              "back": 3.25,
-              "lay": 3.75
-            },
-            "3 Lake Sand": {
-              "runnerId": 2000904330880145,
-              "withdrawn": false,
-              "back": 2.44,
-              "lay": 2.64
-            },
-            "4 No Such Luck": {
-              "runnerId": 2000904330910145,
-              "withdrawn": false,
-              "back": 1.83,
-              "lay": 3.9
-            },
-            "5 Marie Paradis": {
-              "runnerId": 2000904330940145,
-              "withdrawn": false,
-              "back": 1.72,
-              "lay": 1.81
-            },
-            "8 Tokyo Chic": {
-              "runnerId": 2000904331030145,
-              "withdrawn": false,
-              "back": 2.5,
-              "lay": 7
-            },
-            "10 Pedestal": {
-              "runnerId": 2000904331090045,
-              "withdrawn": false,
-              "back": 2.42,
-              "lay": 2.68
-            },
-            "11 Recuerdame": {
-              "runnerId": 2000904331120145,
-              "withdrawn": false,
-              "back": 2.5,
-              "lay": 2.9
-            },
-            "12 Dylan's Ruby": {
-              "runnerId": 2000904331150145,
-              "withdrawn": false,
-              "back": 0,
-              "lay": 24
-            },
-            "6 Cafe Sydney": {
-              "runnerId": 2000904330970145,
-              "withdrawn": true,
-              "back": 0,
-              "lay": 0
-            }
-          },
-          "number-of-winners": 4
         }
       }
-    },
-    "12:55 Greyville": {
-      "id": 2001636643730045,
-      "start": "2022-03-02T12:55:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 4f 214y"
-    },
-    "13:00 Lingfield": {
-      "id": 2000904332520045,
-      "start": "2022-03-02T13:00:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 2f 0y"
-    },
-    "13:30 Greyville": {
-      "id": 2001636645020045,
-      "start": "2022-03-02T13:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 5f 212y"
-    },
-    "13:35 Lingfield": {
-      "id": 2000904335070045,
-      "start": "2022-03-02T13:35:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 6f 1y"
-    },
-    "13:45 Musselburgh": {
-      "id": 2000893426230045,
-      "start": "2022-03-02T13:45:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 3f 171y"
-    },
-    "13:55 Wincanton": {
-      "id": 2000893434950045,
-      "start": "2022-03-02T13:55:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 5f 82y"
-    },
-    "14:05 Greyville": {
-      "id": 2001636646970045,
-      "start": "2022-03-02T14:05:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 5f 212y"
-    },
-    "14:10 Lingfield": {
-      "id": 2000904336780045,
-      "start": "2022-03-02T14:10:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 5f 6y"
-    },
-    "14:20 Musselburgh": {
-      "id": 2000893427560045,
-      "start": "2022-03-02T14:20:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 4f 68y"
-    },
-    "14:30 Wincanton": {
-      "id": 2000893454400045,
-      "start": "2022-03-02T14:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 4f 35y"
-    },
-    "14:40 Greyville": {
-      "id": 2001636649200045,
-      "start": "2022-03-02T14:40:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 6f 211y"
-    },
-    "14:45 Lingfield": {
-      "id": 2000904338800045,
-      "start": "2022-03-02T14:45:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 7f 1y"
-    },
-    "14:55 Musselburgh": {
-      "id": 2000893428940045,
-      "start": "2022-03-02T14:55:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 3f 171y"
-    },
-    "15:05 Wincanton": {
-      "id": 2000893455280045,
-      "start": "2022-03-02T15:05:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 7f 50y"
-    },
-    "15:20 Lingfield": {
-      "id": 2000904340760045,
-      "start": "2022-03-02T15:20:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 7f 1y"
-    },
-    "15:30 Musselburgh": {
-      "id": 2000893430620045,
-      "start": "2022-03-02T15:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 7f 170y"
-    },
-    "15:40 Wincanton": {
-      "id": 2000893457140045,
-      "start": "2022-03-02T15:40:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 4f 35y"
-    },
-    "15:55 Lingfield": {
-      "id": 2000904342730045,
-      "start": "2022-03-02T15:55:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 7f 1y"
-    },
-    "16:05 Musselburgh": {
-      "id": 2000893431500045,
-      "start": "2022-03-02T16:05:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 7f 124y"
-    },
-    "16:15 Wincanton": {
-      "id": 2000893460030045,
-      "start": "2022-03-02T16:15:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 7f 50y"
-    },
-    "16:25 Lingfield": {
-      "id": 2000904346690045,
-      "start": "2022-03-02T16:25:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 5f 0y"
-    },
-    "16:35 Musselburgh": {
-      "id": 2000893433330045,
-      "start": "2022-03-02T16:35:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 7f 170y"
-    },
-    "16:50 Wincanton": {
-      "id": 2000893461850045,
-      "start": "2022-03-02T16:50:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 5f 82y"
-    },
-    "17:00 Kempton": {
-      "id": 2000903113650045,
-      "start": "2022-03-02T17:00:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 5f 0y"
-    },
-    "17:20 Wincanton": {
-      "id": 2000893463700045,
-      "start": "2022-03-02T17:20:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "2m 4f 35y"
-    },
-    "17:30 Kempton": {
-      "id": 2000903115350045,
-      "start": "2022-03-02T17:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 1f 219y"
-    },
-    "18:00 Kempton": {
-      "id": 2000903116480045,
-      "start": "2022-03-02T18:00:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 7f 0y"
-    },
-    "18:30 Kempton": {
-      "id": 2000903118660045,
-      "start": "2022-03-02T18:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 0f 0y"
-    },
-    "19:00 Kempton": {
-      "id": 2000903121640045,
-      "start": "2022-03-02T19:00:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 0f 0y"
-    },
-    "19:30 Kempton": {
-      "id": 2000903123020045,
-      "start": "2022-03-02T19:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 7f 0y"
-    },
-    "20:00 Kempton": {
-      "id": 2000903124810045,
-      "start": "2022-03-02T20:00:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "0m 6f 0y"
-    },
-    "20:30 Kempton": {
-      "id": 2000903127240045,
-      "start": "2022-03-02T20:30:00.000Z",
-      "status": "open",
-      "in-running-flag": false,
-      "realStartTime": 0,
-      "race-length": "1m 3f 219y"
     }
   }
 }

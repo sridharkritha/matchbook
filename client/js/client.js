@@ -83,7 +83,7 @@ window.addEventListener('load', function() {
 
 				cssClass = ++count % 2 ? 'cssWinnerClass': 'cssWinnerAlternate';
 
-				printRunner(key, `LossCount: ${lossCount} (${roundIt2D(lossCount * 100/totalGames)}%), WinCount: ${winCount}(${roundIt2D(winCount * 100/totalGames)}%)`, cssClass);
+				printRunner(key, `LossCount: ${lossCount} (${roundIt2D(lossCount * 100/totalGames)}%), WinCount: ${winCount} (${roundIt2D(winCount * 100/totalGames)}%)`, cssClass);
 			}
 		}
 

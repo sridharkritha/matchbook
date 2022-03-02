@@ -68,7 +68,7 @@ const WC = (function() {
 				// // Win
 				"g_minWinConfidencePercentage"    : 120,   // 100, ex: 80 => (80% or more)
 				// Counts
-				"g_maxRunnersCount"               : 18
+				"g_maxRunnersCount"               : 8
 			},
 
 			"Greyhound Racing": {

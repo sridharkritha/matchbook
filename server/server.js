@@ -45,8 +45,8 @@
 	let g_whichDayEvent = 'today'; // 'today' or 'tomorrow' or "2019-12-24" (ISO specific date)
 
 	// const g_onlyOne_raceName = "Alex De Minaur vs Jannik Sinner"; // test only one race
-	const g_onlyOne_raceName = "12:30 Lingfield";
-	// const g_onlyOne_raceName = null; 
+	// const g_onlyOne_raceName = "14:45 Lingfield";
+	const g_onlyOne_raceName = null; 
 
 	/*
 	const sportsName = ['American Football','Athletics','Australian Rules','Baseball','Basketball','Boxing','Cricket','Cross Sport Special',
@@ -54,39 +54,39 @@
 	'Horse Racing (Ante Post)','Horse Racing Beta','Hurling','Ice Hockey'];
 	*/
 	// ['Horse Racing'];  ['ALL']; ['Cricket']; ['Horse Racing','Greyhound Racing', 'Cricket'];
-	// let g_sportsInterested = ['ALL'];
-	let g_sportsInterested = [
-		'Horse Racing', //.
-		// 'Soccer', //.
-		// 'Greyhound Racing', //.
+	let g_sportsInterested = ['ALL'];
+	// let g_sportsInterested = [
+	// 	'Horse Racing', //.
+	// 	// 'Soccer', //.
+	// 	// 'Greyhound Racing', //.
 
-		// 'American Football',//.
-		// 'Basketball', //.
-		// "Boxing", //.
-		// "Golf", //.
+	// 	// 'American Football',//.
+	// 	// 'Basketball', //.
+	// 	// "Boxing", //.
+	// 	// "Golf", //.
 
-		// 'Ice Hockey', //.
-		// 'Rugby Union', //.
-		// 'Enhanced Specials', //.
-		// 'Snooker', //.
+	// 	// 'Ice Hockey', //.
+	// 	// 'Rugby Union', //.
+	// 	// 'Enhanced Specials', //.
+	// 	// 'Snooker', //.
 
-		// "Baseball", //.
-		// "Cricket", //.
-		// "Motor Sport", //.
-		// "Tennis", //.
+	// 	// "Baseball", //.
+	// 	// "Cricket", //.
+	// 	// "Motor Sport", //.
+	// 	// "Tennis", //.
 
-		// "Volleyball",
-		// "Chess",
-		// "Cycling",
-		// "Rugby League",
-		// "Table Tennis",
-	];
+	// 	// "Volleyball",
+	// 	// "Chess",
+	// 	// "Cycling",
+	// 	// "Rugby League",
+	// 	// "Table Tennis",
+	// ];
 
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	//$$$$$$$$$$$$$$$// WARNING !!!! ( false => places the real money bet) //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	
-	const g_isLockedForBetting = true; // false => REAL MONEY
+	const g_isLockedForBetting = false; // false => REAL MONEY
 	
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
