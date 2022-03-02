@@ -45,8 +45,8 @@
 	let g_whichDayEvent = 'today'; // 'today' or 'tomorrow' or "2019-12-24" (ISO specific date)
 
 	// const g_onlyOne_raceName = "Alex De Minaur vs Jannik Sinner"; // test only one race
-	// const g_onlyOne_raceName = "14:35 Huntingdon";
-	const g_onlyOne_raceName = null; 
+	const g_onlyOne_raceName = "12:30 Lingfield";
+	// const g_onlyOne_raceName = null; 
 
 	/*
 	const sportsName = ['American Football','Athletics','Australian Rules','Baseball','Basketball','Boxing','Cricket','Cross Sport Special',
@@ -54,33 +54,33 @@
 	'Horse Racing (Ante Post)','Horse Racing Beta','Hurling','Ice Hockey'];
 	*/
 	// ['Horse Racing'];  ['ALL']; ['Cricket']; ['Horse Racing','Greyhound Racing', 'Cricket'];
-	let g_sportsInterested = ['ALL'];
-	// let g_sportsInterested = [
-	// 	// 'Horse Racing', //.
-	// 	'Soccer', //.
-	// 	// 'Greyhound Racing', //.
+	// let g_sportsInterested = ['ALL'];
+	let g_sportsInterested = [
+		'Horse Racing', //.
+		// 'Soccer', //.
+		// 'Greyhound Racing', //.
 
-	// 	// 'American Football',//.
-	// 	// 'Basketball', //.
-	// 	// "Boxing", //.
-	// 	// "Golf", //.
+		// 'American Football',//.
+		// 'Basketball', //.
+		// "Boxing", //.
+		// "Golf", //.
 
-	// 	// 'Ice Hockey', //.
-	// 	// 'Rugby Union', //.
-	// 	// 'Enhanced Specials', //.
-	// 	// 'Snooker', //.
+		// 'Ice Hockey', //.
+		// 'Rugby Union', //.
+		// 'Enhanced Specials', //.
+		// 'Snooker', //.
 
-	// 	// "Baseball", //.
-	// 	// "Cricket", //.
-	// 	// "Motor Sport", //.
-	// 	// "Tennis", //.
+		// "Baseball", //.
+		// "Cricket", //.
+		// "Motor Sport", //.
+		// "Tennis", //.
 
-	// 	// "Volleyball",
-	// 	// "Chess",
-	// 	// "Cycling",
-	// 	// "Rugby League",
-	// 	// "Table Tennis",
-	// ];
+		// "Volleyball",
+		// "Chess",
+		// "Cycling",
+		// "Rugby League",
+		// "Table Tennis",
+	];
 
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 	//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -168,17 +168,14 @@
 		return false;
 	};
 
-	isWinningHorse = (sportName, marketName, winPercentage, profitOdd, runnersCount) => {
+	isWinningHorse = (startTime, sportName, marketName, winPercentage, profitOdd, runnersCount) => {
 		const wc = WC.getSportsWinningConstants(sportName, g_isLockedForBetting);
 
-		// Ignore market
-		if(sportName === "Soccer" && (marketName === "Match Result and Total Goals" || marketName === "Correct Score"))
-		{
-			return false;
+		if(new Date() > new Date(startTime)) {
+			return false; // do NOT bet if the match is already started
 		}
-
 		// max
-		if((winPercentage > wc.g_maxWinConfidencePercentage) && (profitOdd > wc.g_minProfitOdd))
+		else if((winPercentage > wc.g_maxWinConfidencePercentage) && (profitOdd > wc.g_minProfitOdd))
 		{
 			return true;
 		}
@@ -187,6 +184,11 @@
 		// {
 		// 	return true;
 		// }
+		// Ignore market
+		else if(sportName === "Soccer" && (marketName === "Match Result and Total Goals" || marketName === "Correct Score"))
+		{
+			return false;
+		}
 		else if((winPercentage > wc.g_minWinConfidencePercentage) && (profitOdd > wc.g_minProfitOdd) && runnersCount <= wc.g_maxRunnersCount)
 		{
 			return true;
@@ -838,7 +840,7 @@
 											console.log(`${UTIL.formatString(`Sports: (${sportName})`, 28)} #### ${UTIL.formatString(`Event: (${raceName})`, 60)}  #### ${UTIL.formatString(`Win(%): ${UTIL.roundIt2D(winPercentage)}`, 18)} #### Odd(${luckyRunner[0][1].name} / ${luckyRunner[1][1].name}): ${luckyRunner[0][0]} / ${luckyRunner[1][0]}`);
 				
 											// Build the predictedWinner list
-											if(isWinningHorse(sportName, marketName, winPercentage, profitOdd, luckyRunner.length))
+											if(isWinningHorse(startTime, sportName, marketName, winPercentage, profitOdd, luckyRunner.length))
 											{
 												let obj = luckyRunner[0][1];
 												obj.sportName = sportName;
