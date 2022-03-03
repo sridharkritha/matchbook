@@ -70,6 +70,8 @@ window.addEventListener('load', function() {
 		let lossCount = 0;
 		let winCount = 0;
 		let count = 0;
+		let grandLossCount = 0;
+		let grandWinCount = 0;
 		let cssClass = 'cssWinnerClass';
 
 		for (let key in data) {
@@ -80,6 +82,8 @@ window.addEventListener('load', function() {
 				lossCount = data[key].lossCount ? data[key].lossCount : 0;
 				winCount = data[key].winCount ? data[key].winCount : 0;
 				totalGames =  lossCount + winCount;
+				grandLossCount += lossCount;
+				grandWinCount  += winCount;
 
 				cssClass = ++count % 2 ? 'cssWinnerClass': 'cssWinnerAlternate';
 
@@ -88,6 +92,12 @@ window.addEventListener('load', function() {
 		}
 
 		fillMainHTMLContent("", g_runnersStr);
+
+		const totalBetCount = grandWinCount + grandLossCount;
+		if(totalBetCount) {
+			const grandStats = document.querySelector('#grandStats');
+			grandStats.innerHTML = `Total Bets = ${totalBetCount}, Win: ${grandWinCount} (${roundIt2D(grandWinCount/totalBetCount * 100)}), Loss: ${grandLossCount} (${roundIt2D(grandLossCount/totalBetCount * 100)})`;
+		}
 
 		document.querySelector("#statsCalender").addEventListener('change', fetchStats);
 	};
@@ -288,7 +298,7 @@ window.addEventListener('load', function() {
 		const todayDate = now.toISOString().split('T')[0];
 		const threeMonthsBefore = new Date(now.setMonth(now.getMonth() - 3)).toISOString().split('T')[0]; // 3 months before today's date
 
-		g_runnersStr = `<h1><div class="cssWinnerAlternate"> <label for="statsCalender">Report From:  <input type="date" id="statsCalender" min="${threeMonthsBefore}" max="${todayDate}" value="${result.fromDate}"> </label> </div> </h1><br/>`;
+		g_runnersStr = `<h1><div class="cssWinnerAlternate"> <label for="statsCalender">Report From:  <input type="date" id="statsCalender" min="${threeMonthsBefore}" max="${todayDate}" value="${result.fromDate}"> </label> <span id="grandStats"></span> </div> </h1><br/>`;
 
 		console.log(groupedStats);
 		console.log(result);
