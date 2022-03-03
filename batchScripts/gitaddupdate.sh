@@ -13,7 +13,10 @@ git add .
 # commit all the staged files
 git commit -m "Adding the last bet data"  
 
-# update the local copy <=== remote copy
+# update the local copy using remote copy (local <= remote)
 git pull origin main
+
+# update the remote copy using the local copy (local => remote)
+git push origin main
 
 ###################################################
