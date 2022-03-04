@@ -1,3 +1,7 @@
+How to start the server ?
+ \GitHub\matchbook\server> node server.js
+--------------------------------------------------------------------------------
+
 Ref: https://developers.matchbook.com/docs
 
 1. Error Codes: The Matchbook API uses standard HTTP status codes to indicate successful or error responses. 
